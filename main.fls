@@ -160,6 +160,13 @@ OUTPUT chapters\title.aux
 INPUT .\chapters\title.tex
 INPUT .\chapters\title.tex
 INPUT chapters\title.tex
+INPUT .\figures\logo.png
+INPUT .\figures\logo.png
+INPUT .\figures\logo.png
+INPUT .\figures\logo.png
+INPUT .\figures\logo.png
+INPUT .\figures\logo.png
+INPUT .\figures\logo.png
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  10 JAN 2026 11:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  10 JAN 2026 12:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -363,17 +363,22 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = `chapters/title.aux'.
 
  (chapters/title.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+<figures/logo.png, id=99, 159.59625pt x 225.84375pt>
+File: figures/logo.png Graphic file (type png)
+<use figures/logo.png>
+Package pdftex.def Info: figures/logo.png  used on input line 6.
+(pdftex.def)             Requested size: 90.5922pt x 128.19812pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
+{C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figures/logo.png>])
 \openout2 = `chapters/abstract.aux'.
 
  (chapters/abstract.tex)
@@ -417,7 +422,7 @@ l.35 \include{chapters/abstract}
 
  (chapters/chapter1.tex
 Chapter 1.
-<figures/SAE Driving Automation Levels.png, id=186, 794.97pt x 614.295pt>
+<figures/SAE Driving Automation Levels.png, id=189, 794.97pt x 614.295pt>
 File: figures/SAE Driving Automation Levels.png Graphic file (type png)
 <use figures/SAE Driving Automation Levels.png>
 Package pdftex.def Info: figures/SAE Driving Automation Levels.png  used on input line 10.
@@ -427,7 +432,7 @@ Package pdftex.def Info: figures/SAE Driving Automation Levels.png  used on inpu
 
 
 ]
-<figures/Test Oracle Concept.png, id=194, 752.8125pt x 445.665pt>
+<figures/Test Oracle Concept.png, id=197, 752.8125pt x 445.665pt>
 File: figures/Test Oracle Concept.png Graphic file (type png)
 <use figures/Test Oracle Concept.png>
 Package pdftex.def Info: figures/Test Oracle Concept.png  used on input line 23.
@@ -437,7 +442,7 @@ Package pdftex.def Info: figures/Test Oracle Concept.png  used on input line 23.
 
  (chapters/chapter2.tex
 Chapter 2.
-<figures/Gaussian Process Trajectory Prediction.png, id=210, 371.3875pt x 197.73875pt>
+<figures/Gaussian Process Trajectory Prediction.png, id=213, 371.3875pt x 197.73875pt>
 File: figures/Gaussian Process Trajectory Prediction.png Graphic file (type png)
 <use figures/Gaussian Process Trajectory Prediction.png>
 Package pdftex.def Info: figures/Gaussian Process Trajectory Prediction.png  used on input line 9.
@@ -448,12 +453,12 @@ Package pdftex.def Info: figures/Gaussian Process Trajectory Prediction.png  use
 
 
  <./figures/Gaussian Process Trajectory Prediction.png>] [6]
-<figures/Metamorphic Testing Workflow.png, id=219, 731.73375pt x 220.825pt>
+<figures/Metamorphic Testing Workflow.png, id=222, 731.73375pt x 220.825pt>
 File: figures/Metamorphic Testing Workflow.png Graphic file (type png)
 <use figures/Metamorphic Testing Workflow.png>
 Package pdftex.def Info: figures/Metamorphic Testing Workflow.png  used on input line 31.
 (pdftex.def)             Requested size: 452.9679pt x 136.6978pt.
-<figures/LKAS Functional Diagram.png, id=223, 989.6975pt x 448.67625pt>
+<figures/LKAS Functional Diagram.png, id=226, 989.6975pt x 448.67625pt>
 File: figures/LKAS Functional Diagram.png Graphic file (type png)
 <use figures/LKAS Functional Diagram.png>
 Package pdftex.def Info: figures/LKAS Functional Diagram.png  used on input line 45.
@@ -468,7 +473,7 @@ Overfull \hbox (2.44785pt too wide) in paragraph at lines 58--58
 
  (chapters/chapter3.tex
 Chapter 3.
-<figures/Overall Metamorphic Testing Workflow.png, id=241, 400.64682pt x 280.04625pt>
+<figures/Overall Metamorphic Testing Workflow.png, id=244, 400.64682pt x 280.04625pt>
 File: figures/Overall Metamorphic Testing Workflow.png Graphic file (type png)
 <use figures/Overall Metamorphic Testing Workflow.png>
 Package pdftex.def Info: figures/Overall Metamorphic Testing Workflow.png  used on input line 7.
@@ -479,7 +484,7 @@ Package pdftex.def Info: figures/Overall Metamorphic Testing Workflow.png  used 
 
 
  <./figures/Overall Metamorphic Testing Workflow.png>]
-<figures/Metamorphic Relation Template.png, id=247, 460.72125pt x 352.31625pt>
+<figures/Metamorphic Relation Template.png, id=250, 460.72125pt x 352.31625pt>
 File: figures/Metamorphic Relation Template.png Graphic file (type png)
 <use figures/Metamorphic Relation Template.png>
 Package pdftex.def Info: figures/Metamorphic Relation Template.png  used on input line 21.
@@ -489,7 +494,7 @@ Overfull \hbox (1.3599pt too wide) in paragraph at lines 57--57
 []\OT1/cmr/bx/n/17.28 Implementation of a Python-Based Meta-mor-phic
  []
 
-<figures/Python-Based Metamorphic Testing Framework.png, id=258, 460.72125pt x 361.35pt>
+<figures/Python-Based Metamorphic Testing Framework.png, id=261, 460.72125pt x 361.35pt>
 File: figures/Python-Based Metamorphic Testing Framework.png Graphic file (type png)
 <use figures/Python-Based Metamorphic Testing Framework.png>
 Package pdftex.def Info: figures/Python-Based Metamorphic Testing Framework.png  used on input line 83.
@@ -524,20 +529,20 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7734E6D5219E3BD3A27CCA92E1FCEC1A;5778.
+(rerunfilecheck)             Checksum: A16E47385C03C19701849E0A4A406F56;5778.
  ) 
 Here is how much of TeX's memory you used:
- 12227 strings out of 467870
- 198261 string characters out of 5418840
- 607087 words of memory out of 5000000
- 40846 multiletter control sequences out of 15000+600000
+ 12236 strings out of 467870
+ 198448 string characters out of 5418840
+ 607146 words of memory out of 5000000
+ 40854 multiletter control sequences out of 15000+600000
  634569 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,1236b,512s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (24 pages, 818605 bytes).
+Output written on main.pdf (24 pages, 830612 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 329 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 

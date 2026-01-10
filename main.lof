@@ -1,13 +1,13 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces SAE International Levels of Driving Automation (J3016 standard), illustrating the progression from no automation (Level 0) to full autonomy (Level 5) \cite {sae2021visual}.}}{2}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Illustration of the test oracle problem in software testing, highlighting the challenge of determining correct outputs without explicit expected results \cite {barr2015oracleSurvey}.}}{3}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces SAE International Levels of Driving Automation (J3016 standard), illustrating the progression from no automation (Level 0) to full autonomy (Level 5) \cite {sae2021visual}.}}{2}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Illustration of the test oracle problem in software testing, highlighting the challenge of determining correct outputs without explicit expected results \cite {barr2015oracleSurvey}.}}{3}{figure.caption.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of Gaussian Process-based trajectory prediction in autonomous driving, showing predicted trajectories with uncertainty bounds for overtaking maneuvers.}}{5}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Conceptual overview of metamorphic testing, illustrating the generation of follow-up test cases from source test cases using metamorphic relations to validate system behavior without an explicit test oracle \cite {qasource2020mt}.}}{7}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagram of a Lane Keeping Assist System (LKAS) in autonomous driving, illustrating lane detection, departure warning, and corrective steering \cite {mathworks2024lane}.}}{8}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of Gaussian Process-based trajectory prediction in autonomous driving, showing predicted trajectories with uncertainty bounds for overtaking maneuvers.}}{5}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Conceptual overview of metamorphic testing, illustrating the generation of follow-up test cases from source test cases using metamorphic relations to validate system behavior without an explicit test oracle \cite {qasource2020mt}.}}{7}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagram of a Lane Keeping Assist System (LKAS) in autonomous driving, illustrating lane detection, departure warning, and corrective steering \cite {mathworks2024lane}.}}{8}{figure.caption.11}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Overall workflow of the proposed metamorphic testing framework for autonomous driving regression models.}}{10}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Structure of the generalized metamorphic testing template illustrating source inputs, transformations, and relational output constraints.}}{11}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces System architecture of the proposed Python‑based metamorphic testing framework for autonomous driving regression models.}}{14}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Overall workflow of the proposed metamorphic testing framework for autonomous driving regression models.}}{10}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Structure of the generalized metamorphic testing template illustrating source inputs, transformations, and relational output constraints.}}{11}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces System architecture of the proposed Python‑based metamorphic testing framework for autonomous driving regression models.}}{14}{figure.caption.14}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
