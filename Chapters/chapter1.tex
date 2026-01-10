@@ -1,0 +1,40 @@
+\chapter{Introduction}
+
+With growing use in early autonomous vehicle platforms and commercial driver assistance systems, autonomous driving has become one of the most significant uses of artificial intelligence. The World Economic Forum states that although widespread full autonomy is still limited by technical, legal, and safety issues, vehicle automation technologies are already present on public roads, especially at Levels 2 and 2+, and are anticipated to gradually expand toward higher levels of autonomy over the next ten years (World Economic Forum, 2025). Current autonomous driving systems still have trouble operating dependably in a variety of real-world scenarios, despite tremendous advancements in perception, prediction, and control models.
+
+\vspace{0.5cm}
+
+\section{Background}
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{figures/SAE Driving Automation Levels.png}
+\caption{SAE International Levels of Driving Automation (J3016 standard), illustrating the progression from no automation (Level 0) to full autonomy (Level 5) \cite{sae2021visual}.}
+\label{fig:SAE Driving Automation Levels}
+\end{figure}
+
+The SAE J3016 standard specifies six levels of driving automation, from no automation (Level 0) to complete automation (Level 5), as seen in Figure 1.1. Currently, the majority of commercially deployed systems function at Levels 2 and 2+, requiring constant human supervision and only limited automation. This highlights how crucial sound testing procedures are to guaranteeing dependability and safety in practical implementation.
+\vspace{0.5cm}
+
+\setlength{\parindent}{0pt} 
+Insufficient and unrealistic testing is a significant barrier limiting the robustness of autonomous driving models. Autonomous systems function in extremely dynamic, complicated contexts where it is not feasible to list and verify every scenario before to deployment. For machine learning-based systems that provide continuous outputs like trajectories, steering angles, or acceleration values, this problem is commonly known as the oracle problem, where it is challenging or impossible to discern the proper output for a given test input. As previously mentioned, the lack of trustworthy test oracles is a common problem for machine learning applications, such as autonomous driving and advanced driver assistance systems (ADAS) (Zhang et al., cited in Chen et al.).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{figures/Test Oracle Concept.png}
+\caption{Illustration of the test oracle problem in software testing, highlighting the challenge of determining correct outputs without explicit expected results \cite{barr2015oracleSurvey}.}
+\label{fig:Test Oracle Concept}
+\end{figure}
+
+\setlength{\parindent}{0pt} 
+Figure 1.2 illustrates the challenge presented by the oracle problem and shows how difficult it is to determine proper outputs when clear expected results are not given. Alternative testing methods like metamorphic testing are necessary because this problem is especially common in machine learning-based autonomous driving systems that produce continuous outputs.
+
+\vspace{0.5cm}
+\setlength{\parindent}{0pt} 
+Chen first proposed Metamorphic Testing (MT) in 1998, and it offers a practical solution to the oracle problem. MT determines whether a system satisfies required qualities, called metamorphic relations (MRs), spanning several executions with related inputs rather than requiring explicit expected outcomes. Even when the correct output is unknown, errors can be identified if these relationships are broken. Numerous fields, such as navigation software, search engines, cybersecurity, machine learning systems, and autonomous driving applications, have effectively used MT (Chen, 1998; Chen et al.; Zhou et al.). Geometric-transformation-based metamorphic relations have proven particularly successful in exposing discrepancies under perspective, spatial, or environmental alterations in the context of autonomous systems.
+
+\vspace{2.5cm}
+\section{Problem Statement}
+However, using metamorphic testing in practice is still difficult despite its benefits. For each model and situation, current methods usually require developers to manually create metamorphic relations and apply unique test scripts. Due to irregular test design or inadequate domain coverage, this method is laborious, prone to errors, and may still overlook important edge situations. Because of this, metamorphic testing is currently neither readily available or methodically incorporated into the process of developing autonomous driving regression models.
+
+\section{Objectives and Scope}
+Designing and implementing a metamorphic testing environment specifically for autonomous driving regression models is the aim of this project. The goal of the suggested platform is to make it easier to define, implement, and assess metamorphic relations so that model developers can test both new and old autonomous driving models more successfully. This study aims to improve model robustness, dependability, and real-world readiness by streamlining the testing procedure and lowering dependency on manually written scripts. In the end, the project closes a significant gap between model creation and safe practical deployment by enhancing software quality assurance procedures for autonomous driving systems.
