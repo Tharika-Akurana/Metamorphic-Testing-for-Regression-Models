@@ -48,4 +48,16 @@ E.~T. Barr \emph{et~al.}, ``The oracle problem in software testing: A survey,''
   \url{https://www.mathworks.com/help/driving/ug/lane-keeping-assist-with-lane-detection.html}
 \BIBentrySTDinterwordspacing
 
+\bibitem{wef2025av}
+{World Economic Forum}, ``Autonomous vehicles: Timeline and roadmap ahead,''
+  2025.
+
+\bibitem{zhang2020mltesting}
+X.~Zhang \emph{et~al.}, ``Machine learning testing: Survey, landscapes, and
+  horizons,'' \emph{IEEE Transactions on Software Engineering}, 2020.
+
+\bibitem{chen1998mt}
+T.~Y. Chen, ``Metamorphic testing: A new approach for generating next test
+  cases,'' in \emph{Technical Report}, 1998.
+
 \end{thebibliography}
