@@ -16,7 +16,7 @@ The SAE J3016 standard specifies six levels of driving automation, from no autom
 \vspace{0.5cm}
 
 \setlength{\parindent}{0pt} 
-Insufficient and unrealistic testing is a significant barrier limiting the robustness of autonomous driving models. Autonomous systems function in extremely dynamic, complicated contexts where it is not feasible to list and verify every scenario before to deployment. For machine learning-based systems that provide continuous outputs like trajectories, steering angles, or acceleration values, this problem is commonly known as the oracle problem, where it is challenging or impossible to discern the proper output for a given test input. As previously mentioned, the lack of trustworthy test oracles is a common problem for machine learning applications, such as autonomous driving and advanced driver assistance systems (ADAS) \cite{zhang2020mltesting}.
+Insufficient and unrealistic testing is a significant barrier limiting the robustness of autonomous driving models. Autonomous systems function in extremely dynamic, complicated contexts where it is not feasible to list and verify every scenario before to deployment. For machine learning-based systems that provide continuous outputs like trajectories, steering angles, or acceleration values, this problem is commonly known as the oracle problem, where it is challenging or impossible to discern the proper output for a given test input. As previously mentioned, the lack of trustworthy test oracles is a common problem for machine learning applications, such as autonomous driving and advanced driver assistance systems (ADAS) \cite{barr2015oracle}, \cite{zhang2020mltesting}.
 
 \begin{figure}[H]
 \centering
@@ -30,7 +30,7 @@ Figure 1.2 illustrates the challenge presented by the oracle problem and shows h
 
 \vspace{0.5cm}
 \setlength{\parindent}{0pt} 
-Chen first proposed Metamorphic Testing (MT) in 1998, and it offers a practical solution to the oracle problem. MT determines whether a system satisfies required qualities, called metamorphic relations (MRs), spanning several executions with related inputs rather than requiring explicit expected outcomes. Even when the correct output is unknown, errors can be identified if these relationships are broken. Numerous fields, such as navigation software, search engines, cybersecurity, machine learning systems, and autonomous driving applications, have effectively used MT \cite{chen1998mt}. Geometric-transformation-based metamorphic relations have proven particularly successful in exposing discrepancies under perspective, spatial, or environmental alterations in the context of autonomous systems.
+Chen first proposed Metamorphic Testing (MT) in 1998, and it offers a practical solution to the oracle problem. MT determines whether a system satisfies required qualities, called metamorphic relations (MRs), spanning several executions with related inputs rather than requiring explicit expected outcomes. Even when the correct output is unknown, errors can be identified if these relationships are broken. Numerous fields, such as navigation software, search engines, cybersecurity, machine learning systems, and autonomous driving applications, have effectively used MT \cite{chen1998mt}, \cite{zhou2019mtads}. Geometric-transformation-based metamorphic relations have proven particularly successful in exposing discrepancies under perspective, spatial, or environmental alterations in the context of autonomous systems.
 
 \vspace{2.5cm}
 \section{Problem Statement}
