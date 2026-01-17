@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  11 JAN 2026 13:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  17 JAN 2026 13:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -486,7 +486,7 @@ l.39 \include{chapters/abstract}
 
  (chapters/chapter1.tex
 Chapter 1.
-<figures/SAE Driving Automation Levels.png, id=192, 794.97pt x 614.295pt>
+<figures/SAE Driving Automation Levels.png, id=198, 794.97pt x 614.295pt>
 File: figures/SAE Driving Automation Levels.png Graphic file (type png)
 <use figures/SAE Driving Automation Levels.png>
 Package pdftex.def Info: figures/SAE Driving Automation Levels.png  used on input line 10.
@@ -496,7 +496,7 @@ Package pdftex.def Info: figures/SAE Driving Automation Levels.png  used on inpu
 
 
 ]
-<figures/Test Oracle Concept.png, id=203, 752.8125pt x 445.665pt>
+<figures/Test Oracle Concept.png, id=211, 752.8125pt x 445.665pt>
 File: figures/Test Oracle Concept.png Graphic file (type png)
 <use figures/Test Oracle Concept.png>
 Package pdftex.def Info: figures/Test Oracle Concept.png  used on input line 23.
@@ -506,23 +506,23 @@ Package pdftex.def Info: figures/Test Oracle Concept.png  used on input line 23.
 
  (chapters/chapter2.tex
 Chapter 2.
-<figures/Gaussian Process Trajectory Prediction.png, id=226, 371.3875pt x 197.73875pt>
+<figures/Gaussian Process Trajectory Prediction.png, id=232, 1413.28pt x 738.76pt>
 File: figures/Gaussian Process Trajectory Prediction.png Graphic file (type png)
 <use figures/Gaussian Process Trajectory Prediction.png>
 Package pdftex.def Info: figures/Gaussian Process Trajectory Prediction.png  used on input line 9.
-(pdftex.def)             Requested size: 452.9679pt x 241.18057pt.
+(pdftex.def)             Requested size: 430.31812pt x 224.93256pt.
 [5
 
 
 
 
  <./figures/Gaussian Process Trajectory Prediction.png>] [6]
-<figures/Metamorphic Testing Workflow.png, id=239, 731.73375pt x 220.825pt>
+<figures/Metamorphic Testing Workflow.png, id=246, 731.73375pt x 220.825pt>
 File: figures/Metamorphic Testing Workflow.png Graphic file (type png)
 <use figures/Metamorphic Testing Workflow.png>
 Package pdftex.def Info: figures/Metamorphic Testing Workflow.png  used on input line 31.
 (pdftex.def)             Requested size: 452.9679pt x 136.6978pt.
-<figures/LKAS Functional Diagram.png, id=243, 989.6975pt x 448.67625pt>
+<figures/LKAS Functional Diagram.png, id=250, 989.6975pt x 448.67625pt>
 File: figures/LKAS Functional Diagram.png Graphic file (type png)
 <use figures/LKAS Functional Diagram.png>
 Package pdftex.def Info: figures/LKAS Functional Diagram.png  used on input line 45.
@@ -537,7 +537,7 @@ Overfull \hbox (2.44785pt too wide) in paragraph at lines 58--58
 
  (chapters/chapter3.tex
 Chapter 3.
-<figures/Overall Metamorphic Testing Workflow.png, id=267, 400.64682pt x 280.04625pt>
+<figures/Overall Metamorphic Testing Workflow.png, id=274, 400.64682pt x 280.04625pt>
 File: figures/Overall Metamorphic Testing Workflow.png Graphic file (type png)
 <use figures/Overall Metamorphic Testing Workflow.png>
 Package pdftex.def Info: figures/Overall Metamorphic Testing Workflow.png  used on input line 7.
@@ -548,7 +548,7 @@ Package pdftex.def Info: figures/Overall Metamorphic Testing Workflow.png  used 
 
 
  <./figures/Overall Metamorphic Testing Workflow.png>]
-<figures/Metamorphic Relation Template.png, id=273, 460.72125pt x 352.31625pt>
+<figures/Metamorphic Relation Template.png, id=280, 460.72125pt x 352.31625pt>
 File: figures/Metamorphic Relation Template.png Graphic file (type png)
 <use figures/Metamorphic Relation Template.png>
 Package pdftex.def Info: figures/Metamorphic Relation Template.png  used on input line 21.
@@ -558,7 +558,7 @@ Overfull \hbox (1.3599pt too wide) in paragraph at lines 57--57
 []\OT1/cmr/bx/n/17.28 Implementation of a Python-Based Meta-mor-phic
  []
 
-<figures/Python-Based Metamorphic Testing Framework.png, id=284, 460.72125pt x 361.35pt>
+<figures/Python-Based Metamorphic Testing Framework.png, id=291, 460.72125pt x 361.35pt>
 File: figures/Python-Based Metamorphic Testing Framework.png Graphic file (type png)
 <use figures/Python-Based Metamorphic Testing Framework.png>
 Package pdftex.def Info: figures/Python-Based Metamorphic Testing Framework.png  used on input line 83.
@@ -573,23 +573,23 @@ Chapter 4.
 
 
 
-] [17] [18]
-<figures/Timeline.PNG, id=311, 2347.77126pt x 3319.40125pt>
-File: figures/Timeline.PNG Graphic file (type png)
-<use figures/Timeline.PNG>
-Package pdftex.def Info: figures/Timeline.PNG  used on input line 153.
-(pdftex.def)             Requested size: 452.9679pt x 640.41759pt.
-) [19] [20 <./figures/Timeline.PNG>]
+] [17]
+<figures/Timeline2.PNG, id=314, 233.673pt x 703.428pt>
+File: figures/Timeline2.PNG Graphic file (type png)
+<use figures/Timeline2.PNG>
+Package pdftex.def Info: figures/Timeline2.PNG  used on input line 113.
+(pdftex.def)             Requested size: 226.48395pt x 681.78767pt.
+) [18] [19 <./figures/Timeline2.PNG>]
 \openout2 = `chapters/chapter5.aux'.
 
  (chapters/chapter5.tex
 Chapter 5.
-) [21
+) [20
 
 
 
 
-] (main.bbl) [22
+] (main.bbl) [21
 
 
 
@@ -606,17 +606,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 174FF7F9B15EDD1CA5AEFF81861A2CFF;5778.
  ) 
 Here is how much of TeX's memory you used:
- 13120 strings out of 467870
- 212952 string characters out of 5418840
- 629017 words of memory out of 5000000
- 41695 multiletter control sequences out of 15000+600000
+ 13121 strings out of 467870
+ 212989 string characters out of 5418840
+ 629070 words of memory out of 5000000
+ 41696 multiletter control sequences out of 15000+600000
  634569 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,83p,1226b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,83p,1573b,523s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (28 pages, 1051961 bytes).
+Output written on main.pdf (27 pages, 1512640 bytes).
 PDF statistics:
- 374 PDF objects out of 1000 (max. 8388607)
+ 376 PDF objects out of 1000 (max. 8388607)
  74 named destinations out of 1000 (max. 500000)
  243 words of extra memory for PDF output out of 10000 (max. 10000000)
 

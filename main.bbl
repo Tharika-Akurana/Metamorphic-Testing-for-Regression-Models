@@ -21,6 +21,11 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{liu2014oracleMT}
+H.~Liu, F.-C. Kuo, D.~Towey, and T.~Y. Chen, ``How effectively does metamorphic
+  testing alleviate the oracle problem?'' \emph{IEEE Transactions on Software
+  Engineering}, vol.~40, no.~1, pp. 4--22, 2014.
+
 \bibitem{sae2021visual}
 \BIBentryALTinterwordspacing
 {SAE International}. (2021) Sae j3016 levels of driving automation visual
@@ -34,6 +39,12 @@ E.~T. Barr \emph{et~al.}, ``The oracle problem in software testing: A survey,''
   \emph{IEEE Transactions on Software Engineering}, 2015. [Online]. Available:
   \url{https://ieeexplore.ieee.org/document/6963470}
 \BIBentrySTDinterwordspacing
+
+\bibitem{liu2024sgpr}
+H.~Liu, K.~Chen, and J.~Ma, ``Incremental learning‑based real‑time
+  trajectory prediction for autonomous driving via sparse gaussian process
+  regression,'' in \emph{Proceedings of the IEEE Intelligent Vehicles Symposium
+  (IV)}, 2024.
 
 \bibitem{qasource2020mt}
 \BIBentryALTinterwordspacing
@@ -52,26 +63,20 @@ E.~T. Barr \emph{et~al.}, ``The oracle problem in software testing: A survey,''
 {World Economic Forum}, ``Autonomous vehicles: Timeline and roadmap ahead,''
   2025.
 
-\bibitem{barr2015oracle}
-E.~T. Barr \emph{et~al.}, ``The oracle problem in software testing,''
-  \emph{IEEE Transactions on Software Engineering}, 2015.
-
 \bibitem{zhang2020mltesting}
 X.~Zhang \emph{et~al.}, ``Machine learning testing: Survey, landscapes, and
   horizons,'' \emph{IEEE Transactions on Software Engineering}, 2020.
-
-\bibitem{chen1998mt}
-T.~Y. Chen, ``Metamorphic testing: A new approach for generating next test
-  cases,'' in \emph{Technical Report}, 1998.
 
 \bibitem{zhou2019mtads}
 Z.~Zhou \emph{et~al.}, ``Metamorphic testing for autonomous driving systems,''
   \emph{IEEE Transactions on Software Engineering}, 2019 - 2021.
 
-\bibitem{liu2024sgpr}
-H.~Liu, K.~Chen, and J.~Ma, ``Incremental learning‑based real‑time
-  trajectory prediction for autonomous driving via sparse gaussian process
-  regression,'' in \emph{Proceedings of the IEEE Intelligent Vehicles Symposium
-  (IV)}, 2024.
+\bibitem{barr2015oracle}
+E.~T. Barr \emph{et~al.}, ``The oracle problem in software testing,''
+  \emph{IEEE Transactions on Software Engineering}, 2015.
+
+\bibitem{chen1998mt}
+T.~Y. Chen, ``Metamorphic testing: A new approach for generating next test
+  cases,'' in \emph{Technical Report}, 1998.
 
 \end{thebibliography}

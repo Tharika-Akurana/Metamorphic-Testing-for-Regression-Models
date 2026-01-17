@@ -14,7 +14,7 @@ An overview of the suggested metamorphic testing framework workflow is given in 
 
 \section{Comprehensive Analysis of Regression Models and Metamorphic Properties}
 
-The first stage involves a comprehensive study of regression models commonly employed in autonomous driving and related cyber-physical systems. These include, but are not limited to, linear and nonlinear regression models, Gaussian Process Regression (GPR), Sparse Gaussian Process Regression (SGPR), neural-network-based regression models, and hybrid learning-based regression approaches. For each category, existing metamorphic testing strategies and applicable metamorphic relations (MRs)—such as geometric transformations, symmetry relations, monotonicity, invariance, and consistency relations—are systematically analyzed. This analysis ensures that the proposed framework remains model-agnostic and is capable of supporting diverse regression behaviors and output characteristics typical of autonomous driving systems.
+The first stage involves a comprehensive study of regression models commonly employed in autonomous driving and related cyber-physical systems. These include, but are not limited to, linear and nonlinear regression models, Gaussian Process Regression (GPR), Sparse Gaussian Process Regression (SGPR), neural-network-based regression models, and hybrid learning-based regression approaches. For each category, existing metamorphic testing strategies and applicable metamorphic relations (MRs) such as geometric transformations, symmetry relations, monotonicity, invariance, and consistency relations are systematically analyzed. This analysis ensures that the proposed framework remains model-agnostic and is capable of supporting diverse regression behaviors and output characteristics typical of autonomous driving systems.
 
 \begin{figure}[H]
 \centering
@@ -41,15 +41,15 @@ The proposed template is independent of any specific regression algorithm. Inste
 
 \section{Proof of Concept: Demonstration on a Representative Regression Model}
 
-The suggested metamorphic testing template is created and used to a typical regression model used in autonomous driving as a proof of concept. To illustrate the viability and accuracy of the method, a rudimentary regression-based model—such as a steering angle prediction or trajectory estimate model—is chosen.
+The suggested metamorphic testing template is created and used to a typical regression model used in autonomous driving as a proof of concept. To illustrate the viability and accuracy of the method, a rudimentary regression-based model such as a steering angle prediction or trajectory estimate model is chosen.
 
 \vspace{0.5cm}
 \setlength{\parindent}{0pt} 
-In this proof-of-concept study, genuine driving circumstances are used to build a collection of source test inputs. Well-defined metamorphic relations, such as geometric transformations (e.g., translation or rotation of trajectories), symmetry relations, and invariance qualities, are then used to construct subsequent test cases. Both source and follow-up inputs are used to run the regression model, and the results are compared to the anticipated metamorphic limitations.
+In this proof-of-concept study, simulated driving scenarios are used to build a collection of source test inputs. Well-defined metamorphic relations, such as geometric transformations (e.g., translation or rotation of trajectories), symmetry relations, and invariance properties, are then used to construct subsequent test cases. Both source and follow-up inputs are used to run the regression model, and the results are compared against the expected metamorphic constraints.
 
 \vspace{0.5cm}
 \setlength{\parindent}{0pt} 
-While satisfied relations increase confidence in model behavior, observed breaches of metamorphic relations point to possible problems with the regression model's accuracy or robustness. The main principle of the suggested framework is validated by this proof-of-concept implementation, which shows that the generalized metamorphic testing template can be successfully used to actual regression models without requiring model-specific test oracles.
+Observed violations of metamorphic relations indicate potential robustness or correctness issues in the regression model, while satisfied relations provide increased confidence in model behavior. This proof-of-concept implementation demonstrates that the generalized metamorphic testing template can be practically applied to real regression models without requiring model-specific test oracles, thereby validating the core idea of the proposed framework.
 
 \section{Validation Using Real-World Autonomous Driving Regression Models}
 Following the proof-of-concept demonstration, real-world regression models used in autonomous driving tasks like lane keeping, trajectory prediction, steering angle estimation, and vehicle control are used to further validate the suggested metamorphic testing template. Based on the specified relations, metamorphic test cases are automatically created. The outputs are then examined to find any deviations from the expected metamorphic qualities. This validation stage shows how the methodology may evaluate regression models' accuracy and resilience under realistic and methodically altered driving conditions.
