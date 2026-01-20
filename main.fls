@@ -135,33 +135,6 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.st
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\main.aux
-INPUT .\main.aux
-INPUT main.aux
-INPUT .\chapters\title.aux
-INPUT .\chapters\title.aux
-INPUT chapters\title.aux
-INPUT .\chapters\abstract.aux
-INPUT .\chapters\abstract.aux
-INPUT chapters\abstract.aux
-INPUT .\chapters\acronyms.aux
-INPUT .\chapters\acronyms.aux
-INPUT chapters\acronyms.aux
-INPUT .\chapters\chapter1.aux
-INPUT .\chapters\chapter1.aux
-INPUT chapters\chapter1.aux
-INPUT .\chapters\chapter2.aux
-INPUT .\chapters\chapter2.aux
-INPUT chapters\chapter2.aux
-INPUT .\chapters\chapter3.aux
-INPUT .\chapters\chapter3.aux
-INPUT chapters\chapter3.aux
-INPUT .\chapters\chapter4.aux
-INPUT .\chapters\chapter4.aux
-INPUT chapters\chapter4.aux
-INPUT .\chapters\chapter5.aux
-INPUT .\chapters\chapter5.aux
-INPUT chapters\chapter5.aux
 OUTPUT main.aux
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -171,14 +144,8 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopd
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT .\main.out
-INPUT .\main.out
-INPUT main.out
-INPUT main.out
-OUTPUT main.pdf
-INPUT .\main.out
-INPUT .\main.out
 OUTPUT main.out
+OUTPUT main.pdf
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT .\chapters\title.tex
@@ -235,17 +202,8 @@ INPUT .\chapters\acronyms.tex
 INPUT chapters\acronyms.tex
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\main.toc
-INPUT .\main.toc
-INPUT main.toc
 OUTPUT main.toc
-INPUT .\main.lof
-INPUT .\main.lof
-INPUT main.lof
 OUTPUT main.lof
-INPUT .\main.lot
-INPUT .\main.lot
-INPUT main.lot
 OUTPUT main.lot
 INPUT .\chapters\chapter1.tex
 INPUT .\chapters\chapter1.tex
@@ -318,13 +276,7 @@ INPUT .\figures\Metamorphic Relation Template.png
 INPUT .\figures\Metamorphic Relation Template.png
 INPUT .\figures\Metamorphic Relation Template.png
 INPUT .\figures\Metamorphic Relation Template.png
-INPUT .\figures\Python-Based Metamorphic Testing Framework.png
-INPUT .\figures\Python-Based Metamorphic Testing Framework.png
-INPUT .\figures\Python-Based Metamorphic Testing Framework.png
-INPUT .\figures\Python-Based Metamorphic Testing Framework.png
-INPUT .\figures\Python-Based Metamorphic Testing Framework.png
-INPUT .\figures\Python-Based Metamorphic Testing Framework.png
-INPUT .\figures\Python-Based Metamorphic Testing Framework.png
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
 INPUT .\chapters\chapter4.tex
 INPUT .\chapters\chapter4.tex
 OUTPUT chapters\chapter4.aux
@@ -393,3 +345,5 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb

@@ -30,7 +30,7 @@ Insufficient and unrealistic testing is a significant barrier limiting the robus
 Figure~\ref{fig:Test Oracle Concept} illustrates the relationship between stimuli and observations in the context of software testing. 
 Stimuli ($S$) represent all factors that can influence the behavior of the system under test (SUT), including explicit test inputs provided by the tester, environmental conditions, configuration parameters, and sensor inputs. 
 A subset of these stimuli, denoted as $I \subset S$, corresponds to the explicit inputs directly applied to the system. 
-Observations ($R$) represent all aspects of the system’s behavior that can be measured after stimulation, including explicit outputs ($O \subset R$) as well as non-functional properties such as execution time, resource utilization, and internal state changes. 
+Observations ($R$) represent all aspects of the system’s behavior that can be measured after stimulation, including explicit outputs ($O \subset R$) as well as non functional properties such as execution time, resource utilization, and internal state changes. 
 Elements that do not belong to either the stimulus set or the observation set neither affect nor are affected by the execution of the SUT~\cite{barr2015oracleSurvey}.
 
 Testing fundamentally consists of applying stimuli to the system and observing the resulting behavior. 
@@ -45,8 +45,8 @@ O : E \rightarrow \{\text{true}, \text{false}\},
 where $E$ denotes the set of all possible executions of the system under test~\cite{barr2015oracleSurvey}.
 
 The oracle problem arises when such a function cannot be reliably defined, implemented, or evaluated for all executions. 
-Barr \emph{et al.} emphasize that this limitation is particularly severe in modern software systems characterized by non-determinism, high complexity, and data-driven behavior, where determining correct outputs in advance is impractical or impossible~\cite{barr2015oracleSurvey}.
-This issue is especially prominent in machine-learning-based autonomous driving systems, which produce continuous outputs that depend on complex and dynamic environmental stimuli. 
+Barr \emph{et al.} emphasize that this limitation is particularly severe in modern software systems characterized by non determinism, high complexity, and data driven behavior, where determining correct outputs in advance is impractical or impossible~\cite{barr2015oracleSurvey}.
+This issue is especially prominent in machine learning based autonomous driving systems, which produce continuous outputs that depend on complex and dynamic environmental stimuli. 
 Consequently, the absence of explicit expected results motivates the adoption of alternative testing strategies, such as metamorphic testing, that reduce or eliminate dependence on traditional test oracles~\cite{liu2014oracleMT,barr2015oracleSurvey,chen1998mt}.
 
 \vspace{0.5cm}
@@ -73,11 +73,11 @@ This objective focuses on defining meaningful metamorphic relations (e.g., rotat
 Verification metrics:
 \begin{itemize}
     \item Definition of at least six metamorphic relations applicable to autonomous driving.
-    \item Formal specification of input--output constraints for 100\% of the defined relations.
+    \item Formal specification of input output constraints for 100\% of the defined relations.
 \end{itemize}
 
-\subsubsection{Objective 2: Design a generalized and model-agnostic metamorphic testing template}
-This objective ensures that the testing approach can be reused across different regression models without requiring model-specific test oracles.
+\subsubsection{Objective 2: Design a generalized and model agnostic metamorphic testing template}
+This objective ensures that the testing approach can be reused across different regression models without requiring model specific test oracles.
 
 \vspace{0.2cm}
 \setlength{\parindent}{0pt} 
@@ -99,7 +99,7 @@ Verification metrics:
     \item Identification of violations or robustness confirmation for each evaluated model.
 \end{itemize}
 
-\subsubsection{Objective 4: Develop a web-based interface for improved accessibility and usability}
+\subsubsection{Objective 4: Develop a web based interface for improved accessibility and usability}
 This objective ensures that the framework can be used by practitioners without deep knowledge of metamorphic testing implementation.
 
 \vspace{0.2cm}
@@ -107,16 +107,18 @@ This objective ensures that the framework can be used by practitioners without d
 Verification metrics:
 \begin{itemize}
     \item A functional web interface supporting model selection, metamorphic relation configuration, and result visualization.
-    \item Successful end-to-end test execution through the interface with minimal user interaction.
+    \item Successful end to end test execution through the interface with minimal user interaction.
 \end{itemize}
 
 \subsection{Scope of the Project}
 The scope of this project is defined to ensure clarity and feasibility and is outlined as follows:
 
 \begin{itemize}
-    \item The project focuses exclusively on regression-based models used in autonomous driving tasks such as lane keeping, trajectory prediction, and steering angle estimation.
-    \item Testing is conducted using metamorphic testing techniques to address the oracle problem in machine-learning based systems.
-    \item The proposed framework is model-agnostic and operates at the software testing level; it does not replace existing simulation platforms or vehicle control systems.
-    \item Validation is performed using simulated driving scenarios and software-level testing rather than real world vehicle deployment.
-    \item Classification models, sensor hardware validation, perception pipelines, and low-level vehicle actuation control are explicitly outside the scope of this study.
+    \item The project focuses exclusively on regression based models used in autonomous driving tasks such as lane keeping, trajectory prediction, and steering angle estimation.
+    \item Testing is conducted using metamorphic testing techniques to address the oracle problem in machine learning based systems.
+    \item The proposed framework is model agnostic and operates at the software testing level; it does not replace existing simulation platforms or vehicle control systems.
+    \item Validation is performed using simulated driving scenarios and software level testing rather than real world vehicle deployment.
+    \item Classification models, sensor hardware validation, perception pipelines, and low level vehicle actuation control are explicitly outside the scope of this study.
 \end{itemize}
+
+
