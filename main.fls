@@ -129,6 +129,10 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape-
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\main.aux
@@ -263,6 +267,10 @@ INPUT .\figures\Test Oracle Concept.png
 INPUT .\figures\Test Oracle Concept.png
 INPUT .\figures\Test Oracle Concept.png
 INPUT .\figures\Test Oracle Concept.png
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\chapters\chapter2.tex
 INPUT .\chapters\chapter2.tex
 OUTPUT chapters\chapter2.aux
@@ -310,7 +318,6 @@ INPUT .\figures\Metamorphic Relation Template.png
 INPUT .\figures\Metamorphic Relation Template.png
 INPUT .\figures\Metamorphic Relation Template.png
 INPUT .\figures\Metamorphic Relation Template.png
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\figures\Python-Based Metamorphic Testing Framework.png
 INPUT .\figures\Python-Based Metamorphic Testing Framework.png
 INPUT .\figures\Python-Based Metamorphic Testing Framework.png
@@ -331,6 +338,13 @@ INPUT .\figures\Timeline2.PNG
 INPUT .\figures\Timeline2.PNG
 INPUT .\figures\Timeline2.PNG
 INPUT .\figures\Timeline2.PNG
+INPUT .\figures\Resource Required.PNG
+INPUT .\figures\Resource Required.PNG
+INPUT .\figures\Resource Required.PNG
+INPUT .\figures\Resource Required.PNG
+INPUT .\figures\Resource Required.PNG
+INPUT .\figures\Resource Required.PNG
+INPUT .\figures\Resource Required.PNG
 INPUT .\chapters\chapter5.tex
 INPUT .\chapters\chapter5.tex
 OUTPUT chapters\chapter5.aux
@@ -340,7 +354,6 @@ INPUT chapters\chapter5.tex
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT main.bbl
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT main.aux
 INPUT .\chapters\title.aux
 INPUT .\chapters\title.aux
@@ -372,7 +385,11 @@ INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm
 INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb

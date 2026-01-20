@@ -79,4 +79,70 @@ E.~T. Barr \emph{et~al.}, ``The oracle problem in software testing,''
 T.~Y. Chen, ``Metamorphic testing: A new approach for generating next test
   cases,'' in \emph{Technical Report}, 1998.
 
+\bibitem{thrun2006stanley}
+S.~Thrun, M.~Montemerlo, H.~Dahlkamp, D.~Stavens, A.~Aron, J.~Diebel, P.~Fong,
+  J.~Gale, M.~Halpenny, G.~Hoffmann \emph{et~al.}, ``Stanley: The robot that
+  won the {DARPA} grand challenge,'' \emph{Journal of Field Robotics}, vol.~23,
+  no.~9, pp. 661--692, 2006.
+
+\bibitem{levinson2011towards}
+J.~Levinson, J.~Askeland, J.~Becker, J.~Dolson, D.~Held, S.~Kammel, J.~Z.
+  Kolter, D.~Langer, O.~Pink, V.~Pratt \emph{et~al.}, ``Towards fully
+  autonomous driving: Systems and algorithms,'' in \emph{Proceedings of the
+  {IEEE} Intelligent Vehicles Symposium (IV)}, 2011.
+
+\bibitem{iso26262}
+\emph{{ISO} 26262: Road Vehicles -- Functional Safety}, International
+  Organization for Standardization Std., 2018.
+
+\bibitem{dosovitskiy2017carla}
+A.~Dosovitskiy, G.~Ros, F.~Codevilla, A.~Lopez, and V.~Koltun, ``{CARLA}: An
+  open urban driving simulator,'' in \emph{Proceedings of the Conference on
+  Robot Learning (CoRL)}, 2017.
+
+\bibitem{nvidia2022simulation}
+{NVIDIA}, ``Simulation-based autonomous vehicle testing,'' NVIDIA Corporation,
+  White Paper, 2022.
+
+\bibitem{rasmussen2006gaussian}
+C.~E. Rasmussen and C.~K.~I. Williams, \emph{Gaussian Processes for Machine
+  Learning}.\hskip 1em plus 0.5em minus 0.4em\relax MIT Press, 2006.
+
+\bibitem{snelson2006sparse}
+E.~Snelson and Z.~Ghahramani, ``Sparse gaussian processes using
+  pseudo-inputs,'' in \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2006.
+
+\bibitem{nguyen2020gpmpc}
+D.~Nguyen-Tien, L.~L. Pape, and R.~Siegwart, ``Gaussian process-based model
+  predictive control for autonomous driving,'' \emph{{IEEE} Control Systems
+  Letters}, 2020.
+
+\bibitem{liu2023equivariant}
+M.~Liu, Y.~Zeng, Y.~Wang, and R.~Urtasun, ``Equivariant trajectory prediction
+  for autonomous vehicles,'' in \emph{Proceedings of the {IEEE} Intelligent
+  Vehicles Symposium (IV)}, 2023.
+
+\bibitem{pei2017deepxplore}
+K.~Pei, Y.~Cao, J.~Yang, and S.~Jana, ``{DeepXplore}: Automated white-box
+  testing of deep learning systems,'' in \emph{Proceedings of the {ACM}
+  Symposium on Operating Systems Principles (SOSP)}, 2017.
+
+\bibitem{zhou2018metamorphic}
+Y.~Zhou, X.~Zhang, and T.~Y. Chen, ``Metamorphic testing of machine learning
+  programs,'' in \emph{Proceedings of the {IEEE}/{ACM} International Conference
+  on Software Engineering (ICSE)}, 2018.
+
+\bibitem{murphy2021testing}
+X.~Murphy \emph{et~al.}, ``Testing and validation of {AI}-based systems: A
+  survey,'' \emph{{IEEE} Access}, 2021.
+
+\bibitem{tian2022metamorphic}
+M.~Tian \emph{et~al.}, ``Metamorphic testing of autonomous systems: Principles
+  and applications,'' \emph{{IEEE} Access}, 2022.
+
+\bibitem{saeJ3016}
+\emph{Taxonomy and Definitions for Terms Related to Driving Automation
+  Systems}, SAE International Std. SAE J3016, 2021.
+
 \end{thebibliography}
