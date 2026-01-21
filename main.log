@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  20 JAN 2026 15:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  20 JAN 2026 23:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -362,8 +362,14 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 ) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count327
-)
-No file main.aux.
+) (main.aux (chapters/title.aux) (chapters/abstract.aux) (chapters/acronyms.aux) (chapters/chapter1.aux) (chapters/chapter2.aux) (chapters/chapter3.aux) (chapters/chapter4.aux
+
+LaTeX Warning: Label `tab:timeline' multiply defined.
+
+
+LaTeX Warning: Label `tab:resources' multiply defined.
+
+) (chapters/chapter5.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -384,7 +390,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count328
 \scratchdimen=\dimen257
@@ -438,20 +444,21 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 36.
+(main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+ (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 \openout2 = `chapters/title.aux'.
 
  (chapters/title.tex
-<figures/logo.png, id=3, 159.59625pt x 225.84375pt>
+<figures/logo.png, id=127, 159.59625pt x 225.84375pt>
 File: figures/logo.png Graphic file (type png)
 <use figures/logo.png>
 Package pdftex.def Info: figures/logo.png  used on input line 6.
@@ -469,11 +476,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figures/logo.png>])
 \openout2 = `chapters/abstract.aux'.
 
- (chapters/abstract.tex
-
-LaTeX Warning: Citation `liu2014oracleMT' on page i undefined on input line 3.
-
-)
+ (chapters/abstract.tex)
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -489,313 +492,90 @@ l.41 \include{chapters/abstract}
 
 
 
-]
-No file main.toc.
+] (main.toc [3
+
+
+
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
-[3
-
-
-
-]
-No file main.lof.
+ [4] (main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
-[4
+ [5
 
-]
-No file main.lot.
+] (main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
-[5
+ [6
 
 ]
 \openout2 = `chapters/chapter1.aux'.
 
  (chapters/chapter1.tex
 Chapter 1.
-
-LaTeX Warning: Citation `wef2025av' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation `zhang2020mltesting' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation `zhou2019mtads' on page 1 undefined on input line 4.
-
-<figures/SAE Driving Automation Levels.png, id=37, 794.97pt x 614.295pt>
+<figures/SAE Driving Automation Levels.png, id=240, 794.97pt x 614.295pt>
 File: figures/SAE Driving Automation Levels.png Graphic file (type png)
 <use figures/SAE Driving Automation Levels.png>
 Package pdftex.def Info: figures/SAE Driving Automation Levels.png  used on input line 11.
 (pdftex.def)             Requested size: 452.9679pt x 350.02992pt.
-
-LaTeX Warning: Citation `sae2021visual' on page 1 undefined on input line 12.
-
-
-LaTeX Warning: Citation `sae2021visual' on page 1 undefined on input line 12.
-
 [1
 
 
 
 ]
-
-LaTeX Warning: Citation `barr2015oracle' on page 2 undefined on input line 20.
-
-
-LaTeX Warning: Citation `zhang2020mltesting' on page 2 undefined on input line 20.
-
-<figures/Test Oracle Concept.png, id=44, 1308.89pt x 770.88pt>
+<figures/Test Oracle Concept.png, id=252, 1308.89pt x 770.88pt>
 File: figures/Test Oracle Concept.png Graphic file (type png)
 <use figures/Test Oracle Concept.png>
 Package pdftex.def Info: figures/Test Oracle Concept.png  used on input line 24.
 (pdftex.def)             Requested size: 452.9679pt x 266.77727pt.
-
-LaTeX Warning: Citation `barr2015oracleSurvey' on page 2 undefined on input line 25.
-
-
-LaTeX Warning: Citation `barr2015oracleSurvey' on page 2 undefined on input line 25.
-
-[2 <./figures/SAE Driving Automation Levels.png (PNG copy)>]
-
-LaTeX Warning: Reference `fig:Test Oracle Concept' on page 3 undefined on input line 30.
-
-
-LaTeX Warning: Citation `barr2015oracleSurvey' on page 3 undefined on input line 34.
-
-
-LaTeX Warning: Citation `barr2015oracleSurvey' on page 3 undefined on input line 45.
-
-
-LaTeX Warning: Citation `barr2015oracleSurvey' on page 3 undefined on input line 48.
-
-
-LaTeX Warning: Citation `liu2014oracleMT' on page 3 undefined on input line 50.
-
-
-LaTeX Warning: Citation `barr2015oracleSurvey' on page 3 undefined on input line 50.
-
-
-LaTeX Warning: Citation `chen1998mt' on page 3 undefined on input line 50.
-
-[3 <./figures/Test Oracle Concept.png>]
-
-LaTeX Warning: Citation `chen1998mt' on page 4 undefined on input line 54.
-
-
-LaTeX Warning: Citation `zhou2019mtads' on page 4 undefined on input line 54.
-
-[4] [5]) [6]
+ [2 <./figures/SAE Driving Automation Levels.png (PNG copy)>] [3 <./figures/Test Oracle Concept.png>] [4] [5]) [6]
 \openout2 = `chapters/chapter2.aux'.
 
  (chapters/chapter2.tex
 Chapter 2.
-
-LaTeX Warning: Citation `sae2021visual' on page 7 undefined on input line 4.
-
-
-LaTeX Warning: Citation `wef2025av' on page 7 undefined on input line 4.
-
-
-LaTeX Warning: Citation `thrun2006stanley' on page 7 undefined on input line 9.
-
-
-LaTeX Warning: Citation `levinson2011towards' on page 7 undefined on input line 9.
-
-
-LaTeX Warning: Citation `iso26262' on page 7 undefined on input line 10.
-
-
-LaTeX Warning: Citation `dosovitskiy2017carla' on page 7 undefined on input line 14.
-
-
-LaTeX Warning: Citation `nvidia2022simulation' on page 7 undefined on input line 14.
-
-
-LaTeX Warning: Citation `liu2024sgpr' on page 7 undefined on input line 19.
-
-
-LaTeX Warning: Citation `zhang2020mltesting' on page 7 undefined on input line 19.
-
-
-LaTeX Warning: Citation `liu2014oracleMT' on page 7 undefined on input line 20.
-
-
-LaTeX Warning: Citation `barr2015oracleSurvey' on page 7 undefined on input line 20.
-
 [7
 
 
 
 
 ]
-
-LaTeX Warning: Citation `zhou2019mtads' on page 8 undefined on input line 25.
-
-
-LaTeX Warning: Citation `chen1998mt' on page 8 undefined on input line 25.
-
-
-LaTeX Warning: Citation `zhang2020mltesting' on page 8 undefined on input line 28.
-
-
-LaTeX Warning: Citation `rasmussen2006gaussian' on page 8 undefined on input line 28.
-
-
-LaTeX Warning: Citation `snelson2006sparse' on page 8 undefined on input line 32.
-
-
-LaTeX Warning: Citation `liu2024sgpr' on page 8 undefined on input line 36.
-
-
-LaTeX Warning: Citation `zhou2019mtads' on page 8 undefined on input line 37.
-
-
-LaTeX Warning: Citation `nguyen2020gpmpc' on page 8 undefined on input line 37.
-
-<figures/Gaussian Process Trajectory Prediction.png, id=89, 1413.28pt x 738.76pt>
+<figures/Gaussian Process Trajectory Prediction.png, id=324, 1413.28pt x 738.76pt>
 File: figures/Gaussian Process Trajectory Prediction.png Graphic file (type png)
 <use figures/Gaussian Process Trajectory Prediction.png>
 Package pdftex.def Info: figures/Gaussian Process Trajectory Prediction.png  used on input line 41.
 (pdftex.def)             Requested size: 430.31812pt x 224.93256pt.
-
-LaTeX Warning: Citation `liu2024sgpr' on page 8 undefined on input line 42.
-
-
-LaTeX Warning: Citation `liu2024sgpr' on page 8 undefined on input line 42.
-
-[8]
-
-LaTeX Warning: Citation `liu2024sgpr' on page 9 undefined on input line 51.
-
-
-LaTeX Warning: Citation `liu2023equivariant' on page 9 undefined on input line 51.
-
-
-LaTeX Warning: Citation `dosovitskiy2017carla' on page 9 undefined on input line 55.
-
-
-LaTeX Warning: Citation `nvidia2022simulation' on page 9 undefined on input line 55.
-
-
-LaTeX Warning: Citation `thrun2006stanley' on page 9 undefined on input line 58.
-
-
-LaTeX Warning: Citation `pei2017deepxplore' on page 9 undefined on input line 58.
-
-[9 <./figures/Gaussian Process Trajectory Prediction.png>]
-
-LaTeX Warning: Citation `liu2014oracleMT' on page 10 undefined on input line 63.
-
-
-LaTeX Warning: Citation `barr2015oracleSurvey' on page 10 undefined on input line 63.
-
-
-LaTeX Warning: Citation `chen1998mt' on page 10 undefined on input line 67.
-
-
-LaTeX Warning: Citation `liu2014oracleMT' on page 10 undefined on input line 72.
-
-<figures/Metamorphic Testing Workflow.png, id=101, 731.73375pt x 220.825pt>
+ [8] [9 <./figures/Gaussian Process Trajectory Prediction.png>]
+<figures/Metamorphic Testing Workflow.png, id=350, 731.73375pt x 220.825pt>
 File: figures/Metamorphic Testing Workflow.png Graphic file (type png)
 <use figures/Metamorphic Testing Workflow.png>
 Package pdftex.def Info: figures/Metamorphic Testing Workflow.png  used on input line 76.
 (pdftex.def)             Requested size: 452.9679pt x 136.6978pt.
-
-LaTeX Warning: Citation `qasource2020mt' on page 10 undefined on input line 77.
-
-
-LaTeX Warning: Citation `qasource2020mt' on page 10 undefined on input line 77.
-
-
-LaTeX Warning: Citation `zhang2020mltesting' on page 10 undefined on input line 85.
-
-
-LaTeX Warning: Citation `zhou2018metamorphic' on page 10 undefined on input line 85.
-
-
-LaTeX Warning: Citation `zhou2019mtads' on page 10 undefined on input line 89.
-
-
-LaTeX Warning: Citation `murphy2021testing' on page 10 undefined on input line 89.
-
-[10 <./figures/Metamorphic Testing Workflow.png>]
-
-LaTeX Warning: Citation `mathworks2024lane' on page 11 undefined on input line 93.
-
-
-LaTeX Warning: Citation `zhou2019mtads' on page 11 undefined on input line 93.
-
-<figures/LKAS Functional Diagram.png, id=110, 989.6975pt x 448.67625pt>
+ [10 <./figures/Metamorphic Testing Workflow.png>]
+<figures/LKAS Functional Diagram.png, id=366, 989.6975pt x 448.67625pt>
 File: figures/LKAS Functional Diagram.png Graphic file (type png)
 <use figures/LKAS Functional Diagram.png>
 Package pdftex.def Info: figures/LKAS Functional Diagram.png  used on input line 97.
 (pdftex.def)             Requested size: 452.9679pt x 205.35295pt.
 
-LaTeX Warning: Citation `mathworks2024lane' on page 11 undefined on input line 98.
-
-
-LaTeX Warning: Citation `mathworks2024lane' on page 11 undefined on input line 98.
-
-
-LaTeX Warning: Citation `chen1998mt' on page 11 undefined on input line 107.
-
-
-LaTeX Warning: Citation `tian2022metamorphic' on page 11 undefined on input line 107.
-
-
-LaTeX Warning: Citation `zhou2019mtads' on page 11 undefined on input line 111.
-
-
-LaTeX Warning: Citation `saeJ3016' on page 11 undefined on input line 111.
-
-
 Overfull \hbox (2.44785pt too wide) in paragraph at lines 113--113
 []\OT1/cmr/bx/n/17.28 Gap Iden-ti-fi-ca-tion: Lim-i-ta-tions of Ex-ist-ing Meta-
  []
 
-
-LaTeX Warning: Citation `zhou2019mtads' on page 11 undefined on input line 114.
-
-
-LaTeX Warning: Citation `chen1998mt' on page 11 undefined on input line 114.
-
 [11 <./figures/LKAS Functional Diagram.png>]
-
-LaTeX Warning: Citation `murphy2021testing' on page 12 undefined on input line 118.
-
-
-LaTeX Warning: Citation `zhang2020mltesting' on page 12 undefined on input line 122.
-
-
 Overfull \hbox (3.58195pt too wide) in paragraph at lines 124--124
 []\OT1/cmr/bx/n/17.28 Summary of Ex-ist-ing Sys-tems and Re-search Gaps
  []
-
-
-LaTeX Warning: Citation `liu2024sgpr' on page 12 undefined on input line 125.
-
-
-LaTeX Warning: Citation `zhang2020mltesting' on page 12 undefined on input line 125.
-
-
-LaTeX Warning: Citation `zhou2019mtads' on page 12 undefined on input line 125.
-
-
-LaTeX Warning: Citation `liu2014oracleMT' on page 12 undefined on input line 126.
-
-
-LaTeX Warning: Citation `barr2015oracleSurvey' on page 12 undefined on input line 126.
 
 ) [12]
 \openout2 = `chapters/chapter3.aux'.
 
  (chapters/chapter3.tex
 Chapter 3.
-<figures/Overall Metamorphic Testing Workflow.png, id=124, 1606.0pt x 1305.87875pt>
+<figures/Overall Metamorphic Testing Workflow.png, id=395, 1606.0pt x 1305.87875pt>
 File: figures/Overall Metamorphic Testing Workflow.png Graphic file (type png)
 <use figures/Overall Metamorphic Testing Workflow.png>
 Package pdftex.def Info: figures/Overall Metamorphic Testing Workflow.png  used on input line 7.
@@ -806,28 +586,18 @@ Package pdftex.def Info: figures/Overall Metamorphic Testing Workflow.png  used 
 
 
  <./figures/Overall Metamorphic Testing Workflow.png>]
-<figures/Metamorphic Relation Template.png, id=132, 2027.575pt x 1541.76pt>
+<figures/Metamorphic Relation Template.png, id=400, 2027.575pt x 1541.76pt>
 File: figures/Metamorphic Relation Template.png Graphic file (type png)
 <use figures/Metamorphic Relation Template.png>
 Package pdftex.def Info: figures/Metamorphic Relation Template.png  used on input line 21.
 (pdftex.def)             Requested size: 452.9679pt x 344.4344pt.
  [14 <./figures/Metamorphic Relation Template.png>] [15] [16]
-
-LaTeX Warning: File `figures/Python Based Metamorphic Testing Framework.png' not found on input line 83.
-
-
-chapters/chapter3.tex:83: Package pdftex.def Error: File `figures/Python Based Metamorphic Testing Framework.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.83 ...n Based Metamorphic Testing Framework.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[17]) [18]
+<figures/Python-Based Metamorphic Testing Framework.png, id=413, 460.72125pt x 361.35pt>
+File: figures/Python-Based Metamorphic Testing Framework.png Graphic file (type png)
+<use figures/Python-Based Metamorphic Testing Framework.png>
+Package pdftex.def Info: figures/Python-Based Metamorphic Testing Framework.png  used on input line 83.
+(pdftex.def)             Requested size: 452.9679pt x 355.26744pt.
+ [17 <./figures/Python-Based Metamorphic Testing Framework.png>]) [18]
 \openout2 = `chapters/chapter4.aux'.
 
  (chapters/chapter4.tex
@@ -838,13 +608,13 @@ Chapter 4.
 
 
 ]
-<figures/Timeline2.PNG, id=170, 176.45924pt x 792.561pt>
+<figures/Timeline2.PNG, id=428, 176.45924pt x 792.561pt>
 File: figures/Timeline2.PNG Graphic file (type png)
 <use figures/Timeline2.PNG>
 Package pdftex.def Info: figures/Timeline2.PNG  used on input line 74.
 (pdftex.def)             Requested size: 135.89174pt x 610.3706pt.
  [20] [21 <./figures/Timeline2.PNG>]
-<figures/Resource Required.PNG, id=181, 575.751pt x 534.798pt>
+<figures/Resource Required.PNG, id=438, 575.751pt x 534.798pt>
 File: figures/Resource Required.PNG Graphic file (type png)
 <use figures/Resource Required.PNG>
 Package pdftex.def Info: figures/Resource Required.PNG  used on input line 85.
@@ -875,32 +645,23 @@ L3 programming layer <2025-12-24>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  1920485E91906E485D9FD5CC1AE15270;7313.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 1920485E91906E485D9FD5CC1AE15270;7313.
  ) 
 Here is how much of TeX's memory you used:
- 13263 strings out of 467870
- 216385 string characters out of 5418840
- 624516 words of memory out of 5000000
- 41827 multiletter control sequences out of 15000+600000
- 635343 words of font info for 68 fonts, out of 8000000 for 9000
+ 13311 strings out of 467870
+ 216351 string characters out of 5418840
+ 633006 words of memory out of 5000000
+ 41847 multiletter control sequences out of 15000+600000
+ 635174 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,83p,1582b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (31 pages, 4230411 bytes).
+ 75i,10n,83p,1573b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (32 pages, 4276938 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 105 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 512 PDF objects out of 1000 (max. 8388607)
+ 106 named destinations out of 1000 (max. 500000)
+ 304 words of extra memory for PDF output out of 10000 (max. 10000000)
 
