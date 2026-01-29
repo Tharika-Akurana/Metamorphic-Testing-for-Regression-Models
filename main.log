@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  29 JAN 2026 13:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  29 JAN 2026 14:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -589,13 +589,13 @@ Package pdftex.def Info: figures/Overall Metamorphic Testing Workflow.png  used 
 <figures/Metamorphic Relation Template.png, id=400, 2027.575pt x 1541.76pt>
 File: figures/Metamorphic Relation Template.png Graphic file (type png)
 <use figures/Metamorphic Relation Template.png>
-Package pdftex.def Info: figures/Metamorphic Relation Template.png  used on input line 21.
+Package pdftex.def Info: figures/Metamorphic Relation Template.png  used on input line 24.
 (pdftex.def)             Requested size: 452.9679pt x 344.4344pt.
  [14 <./figures/Metamorphic Relation Template.png>] [15] [16]
 <figures/Python-Based Metamorphic Testing Framework.png, id=413, 460.72125pt x 361.35pt>
 File: figures/Python-Based Metamorphic Testing Framework.png Graphic file (type png)
 <use figures/Python-Based Metamorphic Testing Framework.png>
-Package pdftex.def Info: figures/Python-Based Metamorphic Testing Framework.png  used on input line 83.
+Package pdftex.def Info: figures/Python-Based Metamorphic Testing Framework.png  used on input line 90.
 (pdftex.def)             Requested size: 452.9679pt x 355.26744pt.
  [17 <./figures/Python-Based Metamorphic Testing Framework.png>]) [18]
 \openout2 = `chapters/chapter4.aux'.
@@ -659,7 +659,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,10n,83p,1573b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (32 pages, 4276991 bytes).
+Output written on main.pdf (32 pages, 4276971 bytes).
 PDF statistics:
  512 PDF objects out of 1000 (max. 8388607)
  106 named destinations out of 1000 (max. 500000)
