@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  29 JAN 2026 16:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  29 JAN 2026 17:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -532,7 +532,12 @@ File: figures/Test Oracle Concept.png Graphic file (type png)
 <use figures/Test Oracle Concept.png>
 Package pdftex.def Info: figures/Test Oracle Concept.png  used on input line 24.
 (pdftex.def)             Requested size: 452.9679pt x 266.77727pt.
- [2 <./figures/SAE Driving Automation Levels.png (PNG copy)>] [3 <./figures/Test Oracle Concept.png>] [4] [5]) [6]
+ [2 <./figures/SAE Driving Automation Levels.png (PNG copy)>] [3 <./figures/Test Oracle Concept.png>]
+Overfull \hbox (7.6926pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/12 Creating and im-ple-ment-ing a gen-er-al-ized meta-mor-phic test-ing en-vi-ron-ment for au-tonomous
+ []
+
+[4] [5]) [6]
 \openout2 = `chapters/chapter2.aux'.
 
  (chapters/chapter2.tex
@@ -543,19 +548,19 @@ Chapter 2.
 
 
 ]
-<figures/Gaussian Process Trajectory Prediction.png, id=324, 1413.28pt x 738.76pt>
+<figures/Gaussian Process Trajectory Prediction.png, id=323, 1413.28pt x 738.76pt>
 File: figures/Gaussian Process Trajectory Prediction.png Graphic file (type png)
 <use figures/Gaussian Process Trajectory Prediction.png>
 Package pdftex.def Info: figures/Gaussian Process Trajectory Prediction.png  used on input line 41.
 (pdftex.def)             Requested size: 430.31812pt x 224.93256pt.
  [8] [9 <./figures/Gaussian Process Trajectory Prediction.png>]
-<figures/Metamorphic Testing Workflow.png, id=350, 731.73375pt x 220.825pt>
+<figures/Metamorphic Testing Workflow.png, id=349, 731.73375pt x 220.825pt>
 File: figures/Metamorphic Testing Workflow.png Graphic file (type png)
 <use figures/Metamorphic Testing Workflow.png>
 Package pdftex.def Info: figures/Metamorphic Testing Workflow.png  used on input line 76.
 (pdftex.def)             Requested size: 452.9679pt x 136.6978pt.
  [10 <./figures/Metamorphic Testing Workflow.png>]
-<figures/LKAS Functional Diagram.png, id=366, 989.6975pt x 448.67625pt>
+<figures/LKAS Functional Diagram.png, id=365, 989.6975pt x 448.67625pt>
 File: figures/LKAS Functional Diagram.png Graphic file (type png)
 <use figures/LKAS Functional Diagram.png>
 Package pdftex.def Info: figures/LKAS Functional Diagram.png  used on input line 97.
@@ -575,7 +580,7 @@ Overfull \hbox (3.58195pt too wide) in paragraph at lines 124--124
 
  (chapters/chapter3.tex
 Chapter 3.
-<figures/Overall Metamorphic Testing Workflow.png, id=395, 1606.0pt x 1305.87875pt>
+<figures/Overall Metamorphic Testing Workflow.png, id=394, 1606.0pt x 1305.87875pt>
 File: figures/Overall Metamorphic Testing Workflow.png Graphic file (type png)
 <use figures/Overall Metamorphic Testing Workflow.png>
 Package pdftex.def Info: figures/Overall Metamorphic Testing Workflow.png  used on input line 7.
@@ -586,13 +591,13 @@ Package pdftex.def Info: figures/Overall Metamorphic Testing Workflow.png  used 
 
 
  <./figures/Overall Metamorphic Testing Workflow.png>]
-<figures/Metamorphic Relation Template.png, id=400, 2027.575pt x 1541.76pt>
+<figures/Metamorphic Relation Template.png, id=399, 2027.575pt x 1541.76pt>
 File: figures/Metamorphic Relation Template.png Graphic file (type png)
 <use figures/Metamorphic Relation Template.png>
 Package pdftex.def Info: figures/Metamorphic Relation Template.png  used on input line 24.
 (pdftex.def)             Requested size: 452.9679pt x 344.4344pt.
  [14 <./figures/Metamorphic Relation Template.png>] [15] [16]
-<figures/Python-Based Metamorphic Testing Framework.png, id=413, 460.72125pt x 361.35pt>
+<figures/Python-Based Metamorphic Testing Framework.png, id=412, 460.72125pt x 361.35pt>
 File: figures/Python-Based Metamorphic Testing Framework.png Graphic file (type png)
 <use figures/Python-Based Metamorphic Testing Framework.png>
 Package pdftex.def Info: figures/Python-Based Metamorphic Testing Framework.png  used on input line 90.
@@ -608,13 +613,13 @@ Chapter 4.
 
 
 ]
-<figures/Timeline2.PNG, id=428, 176.45924pt x 792.561pt>
+<figures/Timeline2.PNG, id=427, 176.45924pt x 792.561pt>
 File: figures/Timeline2.PNG Graphic file (type png)
 <use figures/Timeline2.PNG>
 Package pdftex.def Info: figures/Timeline2.PNG  used on input line 74.
 (pdftex.def)             Requested size: 135.89174pt x 610.3706pt.
  [20] [21 <./figures/Timeline2.PNG>]
-<figures/Resource Required.PNG, id=438, 575.751pt x 534.798pt>
+<figures/Resource Required.PNG, id=437, 575.751pt x 534.798pt>
 File: figures/Resource Required.PNG Graphic file (type png)
 <use figures/Resource Required.PNG>
 Package pdftex.def Info: figures/Resource Required.PNG  used on input line 85.
@@ -659,9 +664,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,10n,83p,1503b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (32 pages, 4276178 bytes).
+Output written on main.pdf (32 pages, 4276413 bytes).
 PDF statistics:
- 512 PDF objects out of 1000 (max. 8388607)
+ 511 PDF objects out of 1000 (max. 8388607)
  106 named destinations out of 1000 (max. 500000)
  304 words of extra memory for PDF output out of 10000 (max. 10000000)
 
