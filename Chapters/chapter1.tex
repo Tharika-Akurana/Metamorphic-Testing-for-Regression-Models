@@ -13,11 +13,11 @@ With growing use in early autonomous vehicle platforms and commercial driver ass
 \label{fig:SAE Driving Automation Levels}
 \end{figure}
 
-The SAE J3016 standard specifies six levels of driving automation, from no automation (Level 0) to complete automation (Level 5), as seen in Figure 1.1. Currently, the majority of commercially deployed systems function at Levels 2 and 2+, requiring constant human supervision and only limited automation. This highlights how crucial sound testing procedures are to guaranteeing dependability and safety in practical implementation.
+In the SAE J3016 standard, there are six stages of automation of driving, starting with none. (Level 0) all the way to full automation (Level 5), as in Figure 1.1. Currently, the majority of commercially deployed systems act at Level 2 and 2+ and demand constant human supervision and just some automation. This is an illustration of the importance of sound testing. processes will be to ensure reliability and safety in the real implementation. 
 \vspace{0.5cm}
 
 \setlength{\parindent}{0pt} 
-Insufficient and unrealistic testing is a significant barrier limiting the robustness of autonomous driving models. Autonomous systems function in extremely dynamic, complicated contexts where it is not feasible to list and verify every scenario before to deployment. For machine learning based systems that provide continuous outputs like trajectories, steering angles, or acceleration values, this problem is commonly known as the oracle problem, where it is challenging or impossible to discern the proper output for a given test input. As previously mentioned, the lack of trustworthy test oracles is a common problem for machine learning applications, such as autonomous driving and advanced driver assistance systems (ADAS) \cite{barr2015oracle}, \cite{zhang2020mltesting}.
+A major disadvantage that restricts the strength of au is lack of adequate and realistic testing. autonomous driving models. Autonomous systems operate in highly dynamic, com. complicated situations where listing and verification of all the situations in advance is impractical so de can be. ployment. In machine learning based systems which give continuous outputs such as tracks, turning angles or force, this has often been referred to as a problem. the oracle problem, in which it is difficult or even impossible to see the correct output. for a given test input. As has been stated above, the absence of credible test oracles is the bane of machine learning applications, e.g., autonomous driving and advanced driver assistant system (ADAS) \cite{barr2015oracle}, \cite{zhang2020mltesting}.
 
 \begin{figure}[H]
 \centering
@@ -27,68 +27,64 @@ Insufficient and unrealistic testing is a significant barrier limiting the robus
 \end{figure}
 
 \setlength{\parindent}{0pt} 
-Figure~\ref{fig:Test Oracle Concept} illustrates the relationship between stimuli and observations in the context of software testing. 
-Stimuli ($S$) represent all factors that can influence the behavior of the system under test (SUT), including explicit test inputs provided by the tester, environmental conditions, configuration parameters, and sensor inputs. 
-A subset of these stimuli, denoted as $I \subset S$, corresponds to the explicit inputs directly applied to the system. 
-Observations ($R$) represent all aspects of the system’s behavior that can be measured after stimulation, including explicit outputs ($O \subset R$) as well as non functional properties such as execution time, resource utilization, and internal state changes. 
-Elements that do not belong to either the stimulus set or the observation set neither affect nor are affected by the execution of the SUT~\cite{barr2015oracleSurvey}.
+Figure 1.2 show the relationship between stimuli and observations with regard to software testing. Stimuli ($S$) represent all factors that can regulate the behaviour of the system under test (SUT), including explicit test inputs provided by the tester, environ mental conditions, configuration parameters, and sensor inputs. 
+A subset of these stimuli, denoted as $I \subset S$, correlate with the explicit inputs directly applied to the system. Observations ($R$) stand in for all aspects of the system’s behaviour that can be measured after stimulation, including explicit outputs ($O \subset R$) as well as non functional properties like execution time, resource utilization, and internal state changes. Elements that do not belong to either the stimulus set or the observation set neither affect nor are affected by the execution of the SUT~\cite{barr2015oracleSurvey}.
 
-Testing fundamentally consists of applying stimuli to the system and observing the resulting behavior. 
-However, as depicted in the figure, this process alone does not guarantee the availability of a clear mechanism for determining whether the observed behavior is correct. 
-This challenge is formally captured by the concept of a \emph{test oracle}, which is commonly defined as a predicate that determines whether a given program execution satisfies its intended specification. 
-Formally, a test oracle can be expressed as a function
+Testing fundamentally contains applying stimuli to the system and observing the resulting behaviour. 
+However, as demonstrated in the figure, this process alone does not guarantee the availability of a clear mechanism for determining whether the observed behaviour is correct. 
+This challenge is formally captured by the concept of a test oracle, which is commonly defined as a predicate that determines whether a given program execution satisfies its considered specification. Formally, a test oracle can be expressed as a function
 
 \begin{equation}
 O : E \rightarrow \{\text{true}, \text{false}\},
 \end{equation}
 
-where $E$ denotes the set of all possible executions of the system under test~\cite{barr2015oracleSurvey}.
+where $E$ dsymbolize the set of all possible executions of the system under test~\cite{barr2015oracleSurvey}.
 
-The oracle problem arises when such a function cannot be reliably defined, implemented, or evaluated for all executions. 
-Barr \emph{et al.} emphasize that this limitation is particularly severe in modern software systems characterized by non determinism, high complexity, and data driven behavior, where determining correct outputs in advance is impractical or impossible~\cite{barr2015oracleSurvey}.
-This issue is especially prominent in machine learning based autonomous driving systems, which produce continuous outputs that depend on complex and dynamic environmental stimuli. 
-Consequently, the absence of explicit expected results motivates the adoption of alternative testing strategies, such as metamorphic testing, that reduce or eliminate dependence on traditional test oracles~\cite{liu2014oracleMT,barr2015oracleSurvey,chen1998mt}.
+The oracle problem occurs when such a function cannot be reliably defined, implemented, or evaluated for all executions.  
+Barr \emph{et al.} stress the fact that this restriction is especially acute in the present day software systems, which tend to be non deterministic, highly complex, 3 and data driven and in which specifying the correct outputs is either impractical or impossible~\cite{barr2015oracleSurvey}.
+This is particularly acute when it comes to machine learning autonomous driving systems, which generate continuous values which are reliant on intricate and changing environmental inputs. 
+This therefore leads to the need to adopt alternative testing approaches like metamorphic testing, which minimize or do away with reliance on conventional test oracles~\cite{liu2014oracleMT,barr2015oracleSurvey,chen1998mt}.
 
 \vspace{0.5cm}
 \setlength{\parindent}{0pt} 
-Chen first proposed Metamorphic Testing (MT) in 1998, and it offers a practical solution to the oracle problem. MT determines whether a system satisfies required qualities, called metamorphic relations (MRs), spanning several executions with related inputs rather than requiring explicit expected outcomes. Even when the correct output is unknown, errors can be identified if these relationships are broken. Numerous fields, such as navigation software, search engines, cybersecurity, machine learning systems, and autonomous driving applications, have effectively used MT \cite{chen1998mt}, \cite{zhou2019mtads}. Geometric transformation based metamorphic relations have proven particularly successful in exposing discrepancies under perspective, spatial, or environmental alterations in the context of autonomous systems.
+Chen first came up with Metamorphic Testing in 1998. Metamorphic Testing is an useful way to deal with the oracle problem. Metamorphic Testing checks if a system has the qualities it needs which are called Metamorphic Relations. These Metamorphic Relations are like rules that apply to runs of the system with related inputs rather than just looking at what the system should output. Even if we do not know what the correct output is we can still find errors if these rules are not followed. Many areas have used Metamorphic Testing. It has worked well. These areas include navigation software, search engines, cyber security, machine learning systems and autonomous driving applications. Metamorphic Testing has been very effective, in all these fields\cite{chen1998mt}, \cite{zhou2019mtads}. Geometric transformation based metamorphic relations have proven particularly successful in exposing discrepancies under perspective, spatial, or environmental alterations in the context of autonomous systems problem statement.
 
 \section{Problem Statement}
-However, using metamorphic testing in practice is still difficult despite its benefits. For each model and situation, current methods usually require developers to manually create metamorphic relations and apply unique test scripts. Due to irregular test design or inadequate domain coverage, this method is laborious, prone to errors, and may still overlook important edge situations. Because of this, metamorphic testing is currently neither readily available or methodically incorporated into the process of developing autonomous driving regression models.
+Though metamorphic testing has its benefits, it remains difficult to apply the testing in actual practice. The existing methods often involve actions by the developers to construct metamorphic relations manually and execute certain test scripts with each model and scenario. Due to the inconsistent test design, This is an inadequate domain coverage method, which is time-consuming, and may contain error-prone, and even fail to capture important edge instances. Consequently, the metamorphic testing is not a readily available and a systematically integrated part of the autonomous driving regression model creation process yet.
 
 \section{Objectives and Scope}
 
 \subsection{Project Goal}
-The primary goal of this project is to design and implement a generalized metamorphic testing environment for autonomous driving regression models. The proposed platform aims to simplify the definition, execution, and evaluation of metamorphic relations, enabling effective testing of both newly developed and existing autonomous driving models. 
+Creating and implementing a generalized metamorphic testing environment for autonomous driving regression models is the main objective of this project. In order to facilitate efficient testing of both recently created and current autonomous driving models, the suggested platform seeks to streamline the definition, implementation, and assessment of metamorphic relations.
 
 \vspace{2cm}
 \subsection{Objectives}
-To achieve the above project goal, the following objectives are defined. Each objective is accompanied by clear verification metrics to assess successful completion.
+In accomplishing the above project goal the following objectives are established. Each objective is with transparent verification measures to measure completion success.
 
 \subsubsection{Objective 1: Identify and formalize applicable metamorphic relations for autonomous driving regression models}
-This objective focuses on defining meaningful metamorphic relations (e.g., rotation, translation, symmetry, and invariance) that reflect real world driving properties.
+This goal aims at establishing significant metamorphic relationships (e.g. rotation, trans). real world driving properties are represented by relation, symmetry, and invariance.
 
 \vspace{0.2cm}
 \setlength{\parindent}{0pt} 
 Verification metrics:
 \begin{itemize}
-    \item Definition of at least six metamorphic relations applicable to autonomous driving.
-    \item Formal specification of input output constraints for 100\% of the defined relations.
+    \item •	Definition of at least six metamorphic relations that can be applied to autonomous driving.
+    \item •	Specification of the input output constraints of 100\% of defined relations.
 \end{itemize}
 
 \subsubsection{Objective 2: Design a generalized and model agnostic metamorphic testing template}
-This objective ensures that the testing approach can be reused across different regression models without requiring model specific test oracles.
+This goal would guarantee that the methodology of testing can be replicated in other regression models that do not need model specific test oracles.
 
 \vspace{0.2cm}
 \setlength{\parindent}{0pt} 
 Verification metrics:
 \begin{itemize}
-    \item Successful instantiation of the template for at least three different regression models.
-    \item No structural modification required when applying the template across models.
+    \item Effective initiation of the template of at least three regression models.
+    \item No structural adjustment is needed in implementing the template on models.
 \end{itemize}
 
 \subsubsection{Objective 3: Validate the proposed framework using representative autonomous driving regression models}
-This objective demonstrates the practical applicability and effectiveness of the framework under realistic testing scenarios.
+This objective shows that the framework is really useful and works well in life situations. The framework is something that can be applied in a way and it is effective. This means the framework is good, for use and it gets the job done under realistic testing scenarios.
 
 \vspace{0.2cm}
 \setlength{\parindent}{0pt} 
@@ -100,25 +96,25 @@ Verification metrics:
 \end{itemize}
 
 \subsubsection{Objective 4: Develop a web based interface for improved accessibility and usability}
-This objective ensures that the framework can be used by practitioners without deep knowledge of metamorphic testing implementation.
+This objective makes sure that the framework can be used by people who work with it every day without needing to know a lot, about the framework. The framework is something that people should be able to use knowledge of metamorphic testing implementation.
 
 \vspace{0.2cm}
 \setlength{\parindent}{0pt} 
 Verification metrics:
 \begin{itemize}
     \item A functional web interface supporting model selection, metamorphic relation configuration, and result visualization.
-    \item Successful end to end test execution through the interface with minimal user interaction.
+    \item Successful end to end test execution through the interface with minimal user inter action.
 \end{itemize}
 
 \subsection{Scope of the Project}
-The scope of this project is defined to ensure clarity and feasibility and is outlined as follows:
+The scope of this project is defined to ensure clarity and feasibility and is outlined as follows: 
 
 \begin{itemize}
-    \item The project focuses exclusively on regression based models used in autonomous driving tasks such as lane keeping, trajectory prediction, and steering angle estimation.
-    \item Testing is conducted using metamorphic testing techniques to address the oracle problem in machine learning based systems.
-    \item The proposed framework is model agnostic and operates at the software testing level; it does not replace existing simulation platforms or vehicle control systems.
-    \item Validation is performed using simulated driving scenarios and software level testing rather than real world vehicle deployment.
-    \item Classification models, sensor hardware validation, perception pipelines, and low level vehicle actuation control are explicitly outside the scope of this study.
+    \item This project is limited to the regression based models applicable in autonomous driving activities such as lane keeping, trajectory prediction and estimation of steering angle.
+    \item Metamorphic testing is done to manage the oracle problem in machine learning based systems.
+    \item The suggested framework is model-neutral and runs on the software testing level, it does not substitute the current simulation platforms or vehicle control systems. 
+    \item Validation is done based on simulated driving conditions and software level testing as opposed to actual vehicle deployment. 
+    \item Classification models, sensor hardware validation, perception pipelines and low level vehicle actuation control are also explicitly beyond the framework of this work.
 \end{itemize}
 
 
