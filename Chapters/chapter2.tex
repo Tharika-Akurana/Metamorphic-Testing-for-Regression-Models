@@ -1,40 +1,40 @@
 \chapter{Literature Review}
 
 \section{Background of the Autonomous Driving Systems and Validation}
-Autonomous driving systems are safety critical cyber physical systems that integrate perception, decision making, and control components to enable vehicles to operate with limited or no human intervention \cite{sae2021visual} \cite{wef2025av}.
-These systems continuously process data from multiple onboard sensors, including cameras, LiDAR, radar, and Global Positioning System (GPS) units, to perceive the surrounding environment and understand road geometry, traffic participants, and dynamic obstacles. Based on this perception, control actions such as steering, acceleration, braking, and lane keeping are generated to ensure safe vehicle operation.
+With limited or no human dependence in vehicle controlling and operating autonomous driving systems use safety critical cyber physical systems which are doing decision making and controlling components \cite{sae2021visual} \cite{wef2025av}.
+These systems continuously process data from multiple sensors in the vehicle, including cameras, LiDAR sensors, radar, and Global Positioning System (GPS) units, to understand road geometry, traffic participants, and dynamic obstacles overall the surrounding environment. Based on this idea, control actions like steering, acceleration, braking, and lane keeping are generated to make sure the safety of the vehicle operation. 
 
 \vspace{0.5cm}
 \setlength{\parindent}{0pt} 
-The operational environment of autonomous vehicles is inherently dynamic and uncertain. Factors such as varying road conditions, complex traffic interactions, weather changes, sensor noise, and unpredictable human behavior significantly increase system complexity \cite{thrun2006stanley} \cite{levinson2011towards}.
-As a result, ensuring the reliability, robustness, and safety of autonomous driving software is a critical requirement throughout the development lifecycle. Failures or unexpected behaviors in these systems may lead to severe safety consequences, highlighting the importance of rigorous testing and validation methodologies \cite{iso26262}.
+The surrounding environment of autonomous driving vehicles is dynamic and uncertain. Factors like sudden variations of road conditions, complex traffic interactions and intersections, sudden weather changes, sensor noise and unpredictable human behavior largely increase system complexity and unpredictability \cite{thrun2006stanley} \cite{levinson2011towards}.
+Hence, ensuring the reliability, robustness, and safety of autonomous driving software is an important requirement while developing the lifecycle. The proper and harder testing and validation of systems is required due to the high unpredictability and sudden variations of inputs \cite{iso26262}.
 
 \vspace{0.5cm}
 \setlength{\parindent}{0pt} 
-Testing and validation play a central role in the development of autonomous driving systems. Conventional validation approaches typically rely on predefined datasets, simulation based testing, and scenario based evaluations using known traffic situations and standardized benchmarks \cite{dosovitskiy2017carla} \cite{nvidia2022simulation}.
-While these methods enable controlled experimentation and functional verification, their effectiveness becomes limited when applied to machine learning based systems, particularly those producing continuous outputs and exhibiting non deterministic behavior.
+Testing systems play a vital role in the development of ADS. Currently widely used validation techniques normally dependant on predefined datasets, simulation based testing, and scenario based evaluations using known traffic situations and standardized benchmarks \cite{dosovitskiy2017carla} \cite{nvidia2022simulation}.
+While these techniques make it controlled for experimentation and functional verification, their efficiency becomes limited when applied to machine learning based systems, specially those generating continuous outputs and showing non deterministic behavior. 
 
 \vspace{2cm}
 \setlength{\parindent}{0pt} 
-Many core components of autonomous driving systems, especially regression based machine learning models, generate continuous outputs such as steering angles, vehicle trajectories, velocity profiles, and control commands \cite{liu2024sgpr}. \cite{zhang2020mltesting}.
-In real world driving scenarios, determining the correct output for a given input in advance is often infeasible. This leads to the well known test oracle problem, where the absence of explicit expected outputs prevents reliable automated validation \cite{liu2014oracleMT} \cite{barr2015oracleSurvey}.
-Additionally, predefined datasets and scenario based testing fail to comprehensively capture rare edge cases and unseen driving conditions, making it difficult to guarantee robust real world performance.
+Most of the core components of ADS, especially regression based machine learning models, generate continuous outputs like steering angles, vehicle trajectories, velocity profiles, and control commands \cite{liu2024sgpr}. \cite{zhang2020mltesting}.
+In real world driving scenarios, planning the correct output decision for a given input in advance is often impossible. This causes the well known test oracle problem, where the absence of exact expected outputs prevents reliable validation \cite{liu2014oracleMT} \cite{barr2015oracleSurvey}.
+Furthermore, predefined datasets and scenario based testing fails to properly capture rare edge cases and unseen driving conditions, making it more difficult to validate sophisticated real world performance.
 
 \vspace{0.5cm}
 \setlength{\parindent}{0pt} 
-As autonomous driving systems increasingly rely on machine learning for perception and control, alternative validation techniques that do not depend on explicit expected outputs have gained increasing attention. This has motivated the exploration of metamorphic testing, which evaluates system correctness by verifying expected relationships between multiple executions rather than individual outputs \cite{zhou2019mtads} \cite{chen1998mt}.
+As ADS heavily rely on machine learning for perception and control, alternative validation techniques that do not depend on exact expected outputs have attracted increasing attention. This has caused the exploration of metamorphic testing, which evaluates system correctness by verifying expected relationships between multiple executions rather than individual outputs \cite{zhou2019mtads} \cite{chen1998mt}.
 
 \section{Regression Based Models in Autonomous Driving Systems}
-For autonomous driving systems to operate safely and effectively, key functionalities such as trajectory prediction, lane centerline tracking, steering control, and motion planning must be performed reliably. Although deep neural network based methods have achieved strong performance in perception tasks, regression based models remain essential for control oriented and prediction based applications due to their interpretability, uncertainty estimation capabilities, and robustness when handling structured continuous data \cite{zhang2020mltesting} \cite{rasmussen2006gaussian}.
+Key functionalities like trajectory prediction, lane centerline tracking, steering control, and motion planning must be performed correctly to make sure the safety and efficiency and operational safety of ADS. Even though deep neural network based methods have accomplished strong evidence of efficiency in perception tasks, regression based models stays vital for control focused and prediction based applications because of their interpretability, uncertainty estimation capabilities, and robustness when handling continuous data \cite{zhang2020mltesting} \cite{rasmussen2006gaussian}.
 
 \vspace{0.5cm}
 \setlength{\parindent}{0pt}
-Among regression approaches, Gaussian Process Regression (GPR) has been widely adopted in autonomous driving for trajectory prediction and vehicle behavior modeling. GPR provides probabilistic predictions with uncertainty estimates, which are crucial for safety aware decision making in dynamic driving environments. However, traditional GPR suffers from high computational complexity, limiting its scalability in real time systems \cite{snelson2006sparse}.
+Among regression approaches, Gaussian Process Regression (GPR) has been widely used in autonomous driving for trajectory prediction and vehicle behavior modeling. GPR provides probabilistic predictions with uncertainty estimates, which are essential for safety aware decision making in dynamic driving environments. However, conventional GPR is more vulnerable for its computational complexity, limiting its scalability in real time systems \cite{snelson2006sparse}.
 
 \vspace{0.5cm}
 \setlength{\parindent}{0pt}
-To address this limitation, Sparse Gaussian Process Regression (SGPR) has been proposed as a scalable alternative that maintains prediction accuracy while enabling real time inference \cite{liu2024sgpr}.
-SGPR based models have been successfully integrated into Model Predictive Control (MPC) frameworks for autonomous driving tasks such as lane keeping and overtaking maneuvers. Experimental studies demonstrate improved trajectory prediction accuracy and control stability across diverse traffic conditions \cite{zhou2019mtads} \cite{nguyen2020gpmpc}.
+To address this issue, Sparse Gaussian Process Regression (SGPR) has been introduced as a reliable solution that maintains accuracy while ensuring the acceptance of real time inference \cite{liu2024sgpr}.
+SGPR based models have been successfully applied into Model Predictive Control (MPC) frameworks for autonomous driving tasks like lane keeping and overtaking maneuvers. Studies show improved trajectory prediction accuracy and control stability across various traffic conditions \cite{zhou2019mtads} \cite{nguyen2020gpmpc}.
 
 \begin{figure}[H]
 \centering
@@ -44,32 +44,32 @@ SGPR based models have been successfully integrated into Model Predictive Contro
 \end{figure}
 
 \setlength{\parindent}{0pt} 
-An example of Gaussian Process based trajectory prediction in an autonomous driving setting is shown in Figure 2.1, which shows expected vehicle trajectories and related uncertainty bounds. Because they can give uncertainty estimates, which are essential for making safety aware decisions in dynamic driving conditions, these regression based models are very useful.
+As an example for Gaussian Process based trajectory prediction in an autonomous driving setting can be shown in Figure 2.1, which indicates the expected vehicle trajectories and related uncertainty bounds. These regression based models are very useful since they can give uncertainty estimates, which are essential for making safety aware decisions in dynamic driving conditions. 
 
 \vspace{0.5cm}
 \setlength{\parindent}{0pt} 
-Recent research presented at the IEEE Intelligent Vehicles Symposium further indicates that SGPR based trajectory prediction models can outperform deep learning approaches in terms of inference efficiency, interpretability, and adaptability, particularly when combined with geometric transformations such as translation and rotation equivariance \cite{liu2024sgpr} \cite{liu2023equivariant}.
+Recent research presented at the IEEE Intelligent Vehicles Symposium further show that SGPR based trajectory prediction models can outperform deep learning approaches in terms of inference efficiency, interpretability, and adaptability, specially when combined with geometric transformations such as translation and rotation equivariance \cite{liu2024sgpr} \cite{liu2023equivariant}.
 
 \section{Limitations of Conventional Testing Approaches in Autonomous Driving}
 
-Despite advances in modeling techniques, the testing and validation of autonomous driving systems remain a major challenge. Conventional testing approaches are often limited to predefined datasets, simulation based environments, and manually designed scenarios \cite{dosovitskiy2017carla} \cite{nvidia2022simulation}. 
-While these methods provide controlled and repeatable evaluations, they struggle to represent the full complexity of real world driving conditions.
+In spite of the advances in modeling technologies, the testing and validation of ADS remain a major challenge. Traditional testing techniques are normally limited to predefined datasets, simulation based environments, and manually designed driving scenarios \cite{dosovitskiy2017carla} \cite{nvidia2022simulation}. 
+While these methods give proper evaluations, they struggle to weigh the full complexity of real world driving scenarios. 
 
-Autonomous vehicles operate in highly dynamic environments involving unpredictable agents, rare corner cases, and continuously evolving traffic situations \cite{thrun2006stanley} \cite{pei2017deepxplore}. 
-As a result, models that perform well in controlled testing environments may exhibit unexpected or unsafe behavior when deployed in novel conditions. This limitation is particularly severe for regression based models with continuous outputs, where defining correct expected results for all possible inputs is impractical.
+Autonomous vehicles operate in highly dynamic environmental conditions involving unpredictable agents, rare edge cases, and continuously complicating traffic situations \cite{thrun2006stanley} \cite{pei2017deepxplore}. 
+Therefore, models which perform well in controlled testing environments may show unexpected or unsafe behavior when they are exposed to untested novel conditions. This limitation is especially worse for regression based models with continuous outputs, where defining correct expected outputs for all possible inputs is impossible. 
 
 \vspace{0.5cm}
 \setlength{\parindent}{0pt} 
-Consequently, there is a growing need for systematic testing approaches that can evaluate model robustness beyond predefined datasets and scenarios, without requiring explicit output oracles \cite{liu2014oracleMT} \cite{barr2015oracleSurvey}.
+Henceforth, there is an increasing need for systematic testing techniques that can evaluate model robustness and efficiency beyond predefined datasets and scenarios, without needing exact output oracles \cite{liu2014oracleMT} \cite{barr2015oracleSurvey}.
 
 \section{Metamorphic Testing: Previous Work}
 
-Metamorphic testing (MT) was first introduced by Chen in 1998 as a software testing technique designed to address the oracle problem \cite{chen1998mt}.
-Instead of relying on predefined expected outputs, MT verifies program correctness by examining relationships between multiple executions under systematically transformed inputs.
+Metamorphic testing (MT) was first introduced by Chen in 1998 as a software testing technique designated to address the oracle problem \cite{chen1998mt}.
+Instead of relying on predefined expected results, MT verifies program accuracy by checking relationships between multiple executions under carefully transformed inputs. 
 
 \vspace{0.5cm}
 \setlength{\parindent}{0pt} 
-These expected relationships, known as metamorphic relations (MRs), represent fundamental properties that the system under test should satisfy. If a metamorphic relation is violated, a fault is detected even when the correct output is unknown. This paradigm significantly reduces dependence on explicit test oracles and has proven effective for complex, data driven systems where traditional testing methods fail \cite{liu2014oracleMT}.
+These expected relationships, known to be metamorphic relations (MRs), represent basic properties that the system under test should achieve. If a metamorphic relation is violated, a fault is detected even if the correct output is unknown. This paradigm significantly reduces dependence on explicit test oracles and has proven effective for complex, data driven systems where traditional testing methods fail \cite{liu2014oracleMT}.
 
 \begin{figure}[H]
 \centering
@@ -80,13 +80,13 @@ These expected relationships, known as metamorphic relations (MRs), represent fu
 \end{figure}
 
 \setlength{\parindent}{0pt} 
-Instead of depending on explicit expected outputs, metamorphic testing uses preset metamorphic relations to generate follow up test cases from an initial source test case, as shown in Figure 2.2. The graphic illustrates how the oracle problem in complex systems, where accurate outputs are hard to predict ahead of time, is addressed by using linkages between many executions to check system behavior.
+Instead of depending on explicit expected outputs, metamorphic testing uses prefound metamorphic relations to generate follow up test cases from an initial source test case, as shown in Figure 2.2. The diagram in the figure indicates how the oracle problem in complex systems, where correct outputs are hard to predict ahead of time, is addressed by using connections between many executions to check system behavior. 
 
-MT has since been successfully applied to numerical computation, search engines, cybersecurity, and machine learning systems, demonstrating its general applicability in oracle challenged environments \cite{zhang2020mltesting} \cite{zhou2018metamorphic}.
+MT has since been successfully applied to numerical computation, search engines, cybersecurity, and machine learning systems, showing its general applicability and reliability in oracle challenged environments \cite{zhang2020mltesting} \cite{zhou2018metamorphic}.
 
 \section{Metamorphic Testing in Machine Learning and Autonomous Driving Systems}
 
-In recent years, metamorphic testing has gained increasing attention in the validation of machine learning based systems, including autonomous driving applications \cite{zhou2019mtads} \cite{murphy2021testing}. Due to continuous outputs and complex system behaviors, MT is particularly suitable for testing Advanced Driver Assistance Systems (ADAS).
+In recent past few years, metamorphic testing has attracted a huge attention in the validation of machine learning based systems, including autonomous driving applications \cite{zhou2019mtads} \cite{murphy2021testing}. As a result of continuous outputs and complex system behaviors, MT is particularly suitable for testing Advanced Driver Assistance Systems (ADAS). 
 
 \vspace{0.5cm}
 \setlength{\parindent}{0pt} 
@@ -100,32 +100,32 @@ Previous studies have applied geometric transformation based metamorphic relatio
 }
 \end{figure}
 \setlength{\parindent}{0pt} 
-A Lane Keeping Assist System (LKAS) usually includes of lane detection, vehicle position assessment, and corrective steering control components, as shown in Figure 2.3. Because geometric transformations and symmetry based metamorphic relations can be used to verify system consistency under various driving conditions, LKAS's modular structure makes it a good choice for metamorphic testing.
+A Lane Keeping Assist System (LKAS) usually includes lane detection, vehicle position assessment, and accurate steering control components, as shown in Figure 2.3. Since geometric transformations and symmetry based metamorphic relations can be used to verify system consistency under various driving conditions, LKAS’s modular structure makes it a good case for metamorphic testing. 
 
 \vspace{0.5cm}
 \setlength{\parindent}{0pt} 
-Researchers have demonstrated that symmetry and rotation based MRs can reveal critical system faults that are often missed by conventional testing. By generating large numbers of follow up test cases from existing scenarios, MT enables systematic exploration of model behavior without relying on explicit expected outputs \cite{chen1998mt} \cite{tian2022metamorphic}.
+Researchers have shown that symmetry and rotation based MRs can reveal critical system faults that are often missed by current traditional testing. From generating huge numbers of follow up test cases from existing driving scenarios, MT enables systematic exploitation of the respected model behavior without depending on explicit or exact expected outputs \cite{chen1998mt} \cite{tian2022metamorphic}.
 
 \vspace{0.5cm}
 \setlength{\parindent}{0pt} 
 Additional metamorphic relations explored in the literature include translation invariance, trajectory preserving transformations, environmental condition variations, and sensor symmetry relations, which are particularly effective for testing regression based perception and control models \cite{zhou2019mtads} \cite{saeJ3016}.
 
 \section{Gap Identification: Limitations of Existing Metamorphic Testing Approaches}
-Despite its effectiveness, the practical adoption of metamorphic testing in autonomous driving remains limited. Most existing MT implementations rely on ad hoc test scripts, where metamorphic relations are manually defined and tightly coupled to specific models, simulators, or experimental setups \cite{zhou2019mtads} \cite{chen1998mt}.
+In spite of its performance, the practical applications of metamorphic testing in autonomous driving remains limited. Most currently used MT applications rely on ad hoc test scripts, where metamorphic relations are manually defined and tightly coupled to specific models, simulators, or experimental setups \cite{zhou2019mtads} \cite{chen1998mt}.
 
 \vspace{0.5cm}
 \setlength{\parindent}{0pt} 
-Although geometric transformation based MRs have proven successful, they are often implemented in a case specific and non reusable manner. This results in high manual effort, limited scalability, and poor integration into continuous development pipelines \cite{murphy2021testing}.
+Although geometric transformation based MRs have proven successful, they are frequently implemented in a case specific and non reusable manner. This makes it high manual effort, limited scalability, and poor integration into continuous development pipelines \cite{murphy2021testing}.
 
 \setlength{\parindent}{0pt} 
 \vspace{0.5cm}
-Furthermore, current MT approaches typically require extensive domain knowledge and familiarity with simulation platforms, increasing development and maintenance overhead. These challenges are particularly pronounced for regression based autonomous driving models, where continuous outputs and complex interactions complicate MR design \cite{zhang2020mltesting}.
+Furthermore, current MT approaches usually require extensive domain knowledge and familiarity with simulation platforms, increasing development and maintenance complexity for the users. These challenges are especially pronounced for regression based autonomous driving models, where continuous outputs and complex interactions complicate MR design \cite{zhang2020mltesting}.
 
 \section{Summary of Existing Systems and Research Gaps and way forward}
-Existing autonomous driving systems widely employ regression based models such as GPR, SGPR, and learning based control models for trajectory prediction, lane keeping, and steering control \cite{liu2024sgpr} \cite{zhang2020mltesting} \cite{zhou2019mtads}.
-While these models offer strong predictive capabilities and uncertainty estimation, their validation remains challenging due to the oracle problem and the limitations of conventional testing approaches \cite{liu2014oracleMT} \cite{barr2015oracleSurvey}.
+Existing currently used autonomous driving systems widely use regression based models such as GPR, SGPR, and learning based control models for trajectory prediction, lane keeping, and steering contro \cite{liu2024sgpr} \cite{zhang2020mltesting} \cite{zhou2019mtads}.
+While these models give strong prediction abilities and unpredictable estimation, their validation remains challenging because of the oracle problem and the limitations of traditional testing approaches \cite{liu2014oracleMT} \cite{barr2015oracleSurvey}.
 
 \setlength{\parindent}{0pt} 
 \vspace{0.5cm}
-Although metamorphic testing has shown promise in addressing these challenges, current solutions lack abstraction, automation, and scalability. This clearly motivates the need for a generalized, reusable, and model agnostic metamorphic testing framework for autonomous driving regression models, which forms the basis of the proposed research.
+Although metamorphic testing has shown positivity in overcoming these challenges, current solutions lack abstraction, automation, and scalability. This surely motivates the need for a generalized, reusable, and model agnostic metamorphic testing framework for autonomous driving regression models, which makes the fundamental basis of the proposed research.
 
